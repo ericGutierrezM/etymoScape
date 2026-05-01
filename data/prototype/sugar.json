@@ -1,0 +1,186 @@
+{
+  "id": "eng:sugar",
+  "query_word": "sugar",
+  "language": "English",
+  "title": "sugar",
+  "short_summary": "The English word “sugar” entered through French and medieval Latin, ultimately tracing back through Arabic and Persian to Sanskrit.",
+  "confidence_summary": "The broad route is well established, though exact intermediate forms and dates may vary by source.",
+
+  "forms": [
+    {
+      "id": "eng:sugar",
+      "lemma": "sugar",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1200,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "sweet crystalline substance"
+    },
+    {
+      "id": "fro:sucre",
+      "lemma": "sucre",
+      "language": "Old French",
+      "period": "Old French / Middle French",
+      "approx_start_year": 1100,
+      "approx_end_year": 1500,
+      "region_label": "France",
+      "lat": 46.2,
+      "lon": 2.2,
+      "meaning": "sugar"
+    },
+    {
+      "id": "lat:succarum",
+      "lemma": "succarum",
+      "language": "Medieval Latin",
+      "period": "Medieval Latin",
+      "approx_start_year": 900,
+      "approx_end_year": 1400,
+      "region_label": "Western Europe",
+      "lat": 43.8,
+      "lon": 11.3,
+      "meaning": "sugar"
+    },
+    {
+      "id": "ara:sukkar",
+      "lemma": "sukkar",
+      "language": "Arabic",
+      "period": "Classical / Medieval Arabic",
+      "approx_start_year": 600,
+      "approx_end_year": 1400,
+      "region_label": "Arabic-speaking world",
+      "lat": 24.7,
+      "lon": 46.7,
+      "meaning": "sugar"
+    },
+    {
+      "id": "per:shakar",
+      "lemma": "šakar",
+      "language": "Persian",
+      "period": "Middle / New Persian",
+      "approx_start_year": 300,
+      "approx_end_year": 1200,
+      "region_label": "Persia",
+      "lat": 32.4,
+      "lon": 53.7,
+      "meaning": "sugar"
+    },
+    {
+      "id": "san:sarkara",
+      "lemma": "śárkarā",
+      "language": "Sanskrit",
+      "period": "Sanskrit",
+      "approx_start_year": -1000,
+      "approx_end_year": 500,
+      "region_label": "North India",
+      "lat": 25.3,
+      "lon": 82.9,
+      "meaning": "gravel, grit, sugar-like granules"
+    }
+  ],
+
+  "edges": [
+    {
+      "from": "eng:sugar",
+      "to": "fro:sucre",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "English borrowed the word through French."
+    },
+    {
+      "from": "fro:sucre",
+      "to": "lat:succarum",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "French form traces through medieval Latin."
+    },
+    {
+      "from": "lat:succarum",
+      "to": "ara:sukkar",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Medieval Latin borrowed from Arabic."
+    },
+    {
+      "from": "ara:sukkar",
+      "to": "per:shakar",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Arabic form traces to Persian."
+    },
+    {
+      "from": "per:shakar",
+      "to": "san:sarkara",
+      "relation": "borrowed_from",
+      "confidence": "medium",
+      "note": "Persian form is usually traced to Sanskrit śárkarā."
+    }
+  ],
+
+  "semantic_stages": [
+    {
+      "label": "Granular material",
+      "meaning": "gravel, grit, or small particles",
+      "language": "Sanskrit",
+      "period": "Ancient",
+      "approx_year": -500
+    },
+    {
+      "label": "Sugar substance",
+      "meaning": "sugar as a sweet crystalline substance",
+      "language": "Persian / Arabic / European languages",
+      "period": "Medieval to modern",
+      "approx_year": 800
+    }
+  ],
+
+  "map_route": [
+    {
+      "label": "Sanskrit śárkarā",
+      "lat": 25.3,
+      "lon": 82.9
+    },
+    {
+      "label": "Persian šakar",
+      "lat": 32.4,
+      "lon": 53.7
+    },
+    {
+      "label": "Arabic sukkar",
+      "lat": 24.7,
+      "lon": 46.7
+    },
+    {
+      "label": "Medieval Latin succarum",
+      "lat": 43.8,
+      "lon": 11.3
+    },
+    {
+      "label": "Old French sucre",
+      "lat": 46.2,
+      "lon": 2.2
+    },
+    {
+      "label": "English sugar",
+      "lat": 52.0,
+      "lon": -1.5
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/sugar",
+      "type": "dictionary"
+    },
+    {
+      "name": "Online Etymology Dictionary",
+      "url": "https://www.etymonline.com/word/sugar",
+      "type": "etymological dictionary"
+    }
+  ],
+
+  "status": "draft"
+}
