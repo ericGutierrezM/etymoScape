@@ -1,0 +1,5 @@
+streamlit
+streamlit-folium
+pandas
+numpy <2 "to allow for compatibility with streamlit and pandas"
+python 3.11

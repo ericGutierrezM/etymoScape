@@ -1,0 +1,186 @@
+{
+  "id": "eng:algorithm",
+  "query_word": "algorithm",
+  "language": "English",
+  "title": "algorithm",
+  "part_of_speech": "noun",
+  "short_summary": "The English word “algorithm” ultimately comes from the Latinized name of the Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī. It first referred to arithmetic using Hindu-Arabic numerals and later broadened to mean a step-by-step computational procedure.",
+  "confidence_summary": "The connection to al-Khwārizmī’s Latinized name is well established. The simplified route through Medieval Latin and later European mathematical vocabulary is sufficient for prototype purposes.",
+  "status": "draft",
+  "forms": [
+    {
+      "id": "eng:algorithm",
+      "lemma": "algorithm",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1600,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "a step-by-step procedure for calculation, problem-solving, or computation"
+    },
+    {
+      "id": "enm:algorisme",
+      "lemma": "algorisme",
+      "language": "Middle English",
+      "period": "Middle English",
+      "approx_start_year": 1200,
+      "approx_end_year": 1500,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "arithmetic using Hindu-Arabic numerals"
+    },
+    {
+      "id": "lat:algorismus",
+      "lemma": "algorismus",
+      "language": "Medieval Latin",
+      "period": "Medieval Latin",
+      "approx_start_year": 1100,
+      "approx_end_year": 1500,
+      "region_label": "Medieval Europe",
+      "lat": 48.8,
+      "lon": 2.3,
+      "meaning": "arithmetic; calculation using Hindu-Arabic numerals"
+    },
+    {
+      "id": "ara:al_khwarizmi",
+      "lemma": "الخوارزمي",
+      "transliteration": "al-Khwārizmī",
+      "language": "Arabic",
+      "period": "Classical Arabic / Abbasid period",
+      "approx_start_year": 780,
+      "approx_end_year": 850,
+      "region_label": "Abbasid Caliphate",
+      "lat": 33.3,
+      "lon": 44.4,
+      "meaning": "nisba/name meaning 'from Khwarazm'; associated with the mathematician Muḥammad ibn Mūsā al-Khwārizmī"
+    },
+    {
+      "id": "xzm:khwarazm",
+      "lemma": "Khwarazm",
+      "language": "Historical region",
+      "period": "Central Asian historical region",
+      "approx_start_year": -500,
+      "approx_end_year": 1500,
+      "region_label": "Khwarazm / Central Asia",
+      "lat": 42.0,
+      "lon": 59.0,
+      "meaning": "historical region in Central Asia from which the name al-Khwārizmī is derived"
+    }
+  ],
+  "edges": [
+    {
+      "from": "eng:algorithm",
+      "to": "enm:algorisme",
+      "relation": "derived_from",
+      "confidence": "medium",
+      "note": "Modern algorithm is historically related to earlier English algorism/algorisme, with later spelling influenced by Greek-looking forms such as arithmetic."
+    },
+    {
+      "from": "enm:algorisme",
+      "to": "lat:algorismus",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Middle English algorisme was borrowed from Old French/Medieval Latin mathematical vocabulary; this prototype simplifies the route through Medieval Latin."
+    },
+    {
+      "from": "lat:algorismus",
+      "to": "ara:al_khwarizmi",
+      "relation": "derived_from_name",
+      "confidence": "high",
+      "note": "Medieval Latin algorismus comes from the Latinized name of al-Khwārizmī."
+    },
+    {
+      "from": "ara:al_khwarizmi",
+      "to": "xzm:khwarazm",
+      "relation": "name_from_place",
+      "confidence": "high",
+      "note": "The name al-Khwārizmī indicates association with Khwarazm."
+    }
+  ],
+  "semantic_stages": [
+    {
+      "label": "Personal name",
+      "meaning": "Al-Khwārizmī was the name by which the Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī was known in Arabic scholarly tradition.",
+      "language": "Arabic",
+      "period": "9th century",
+      "approx_year": 825,
+      "semantic_change_type": "eponymic origin"
+    },
+    {
+      "label": "Arithmetic with Hindu-Arabic numerals",
+      "meaning": "Medieval Latin algorismus referred to calculation methods associated with Hindu-Arabic numerals.",
+      "language": "Medieval Latin",
+      "period": "Medieval",
+      "approx_year": 1200,
+      "semantic_change_type": "technicalization"
+    },
+    {
+      "label": "Step-by-step procedure",
+      "meaning": "In modern usage, algorithm means a general step-by-step procedure for solving a problem or performing computation.",
+      "language": "English",
+      "period": "Modern",
+      "approx_year": 1900,
+      "semantic_change_type": "broadening"
+    }
+  ],
+  "map_route": [
+    {
+      "label": "Khwarazm / Central Asia",
+      "lat": 42.0,
+      "lon": 59.0
+    },
+    {
+      "label": "Arabic scholarly world / Baghdad",
+      "lat": 33.3,
+      "lon": 44.4
+    },
+    {
+      "label": "Medieval Latin Europe",
+      "lat": 48.8,
+      "lon": 2.3
+    },
+    {
+      "label": "Middle / Modern English",
+      "lat": 52.0,
+      "lon": -1.5
+    }
+  ],
+  "related_words": [
+    {
+      "lemma": "algorism",
+      "language": "English",
+      "relationship": "older related form referring to arithmetic with Hindu-Arabic numerals"
+    },
+    {
+      "lemma": "algebra",
+      "language": "English",
+      "relationship": "not the same word, but historically associated with al-Khwārizmī’s mathematical work"
+    },
+    {
+      "lemma": "arithmetic",
+      "language": "English",
+      "relationship": "later spelling of algorithm was influenced by association with arithmetic-like learned forms"
+    }
+  ],
+  "historical_context": "Algorithm is especially useful for the project because it is not simply a loanword chain. It shows how a personal name became a technical term, first for numerical calculation and later for computation in general.",
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/algorithm",
+      "type": "dictionary"
+    },
+    {
+      "name": "Online Etymology Dictionary",
+      "url": "https://www.etymonline.com/word/algorithm",
+      "type": "etymological dictionary"
+    },
+    {
+      "name": "Encyclopaedia Britannica — al-Khwarizmi",
+      "url": "https://www.britannica.com/biography/al-Khwarizmi",
+      "type": "encyclopedic reference"
+    }
+  ]
+}

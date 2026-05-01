@@ -1,0 +1,172 @@
+{
+  "id": "eng:school",
+  "query_word": "school",
+  "language": "English",
+  "title": "school",
+  "part_of_speech": "noun",
+  "short_summary": "The English word “school” comes through Old English and Latin from Ancient Greek skholḗ, a word originally associated with leisure or free time that later developed into the idea of learned discussion and formal instruction.",
+  "confidence_summary": "The broad Greek → Latin → Old English → English route is well established. The semantic development from leisure to learned discussion and education is simplified here for prototype purposes.",
+  "status": "draft",
+  "forms": [
+    {
+      "id": "eng:school",
+      "lemma": "school",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1500,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "institution for education; group of students or teachers; system of instruction"
+    },
+    {
+      "id": "ang:scol",
+      "lemma": "scōl",
+      "language": "Old English",
+      "period": "Old English",
+      "approx_start_year": 700,
+      "approx_end_year": 1100,
+      "region_label": "Anglo-Saxon England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "school; place of instruction"
+    },
+    {
+      "id": "lat:schola",
+      "lemma": "schola",
+      "language": "Latin",
+      "period": "Classical / Medieval Latin",
+      "approx_start_year": -100,
+      "approx_end_year": 1200,
+      "region_label": "Roman / Medieval Europe",
+      "lat": 41.9,
+      "lon": 12.5,
+      "meaning": "school; lecture; learned discussion; group of pupils"
+    },
+    {
+      "id": "grc:skhole",
+      "lemma": "σχολή",
+      "transliteration": "skholḗ",
+      "language": "Ancient Greek",
+      "period": "Ancient Greek",
+      "approx_start_year": -500,
+      "approx_end_year": 300,
+      "region_label": "Ancient Greece",
+      "lat": 37.9,
+      "lon": 23.7,
+      "meaning": "leisure, free time; later discussion, lecture, place of learning"
+    }
+  ],
+  "edges": [
+    {
+      "from": "eng:school",
+      "to": "ang:scol",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Modern English school continues Old English scōl."
+    },
+    {
+      "from": "ang:scol",
+      "to": "lat:schola",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Old English scōl was borrowed from Latin schola."
+    },
+    {
+      "from": "lat:schola",
+      "to": "grc:skhole",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Latin schola derives from Ancient Greek σχολή."
+    }
+  ],
+  "semantic_stages": [
+    {
+      "label": "Leisure / free time",
+      "meaning": "Ancient Greek skholḗ originally referred to leisure or free time.",
+      "language": "Ancient Greek",
+      "period": "Ancient",
+      "approx_year": -500,
+      "semantic_change_type": "original sense"
+    },
+    {
+      "label": "Discussion / lecture",
+      "meaning": "The word developed an association with learned discussion, lectures, or philosophical conversation conducted during leisure.",
+      "language": "Ancient Greek / Latin",
+      "period": "Classical",
+      "approx_year": -100,
+      "semantic_change_type": "specialization"
+    },
+    {
+      "label": "Place of instruction",
+      "meaning": "The meaning shifted toward a place or institution where instruction takes place.",
+      "language": "Latin / Old English / English",
+      "period": "Medieval to modern",
+      "approx_year": 800,
+      "semantic_change_type": "institutionalization"
+    }
+  ],
+  "map_route": [
+    {
+      "label": "Ancient Greek σχολή / skholḗ",
+      "lat": 37.9,
+      "lon": 23.7
+    },
+    {
+      "label": "Latin schola",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    {
+      "label": "Old English scōl",
+      "lat": 52.0,
+      "lon": -1.5
+    },
+    {
+      "label": "English school",
+      "lat": 52.0,
+      "lon": -1.5
+    }
+  ],
+  "related_words": [
+    {
+      "lemma": "scholar",
+      "language": "English",
+      "relationship": "derived from the same Latin/Greek root"
+    },
+    {
+      "lemma": "scholastic",
+      "language": "English",
+      "relationship": "derived from Latin scholasticus"
+    },
+    {
+      "lemma": "école",
+      "language": "French",
+      "relationship": "related descendant through Latin schola"
+    },
+    {
+      "lemma": "escuela",
+      "language": "Spanish",
+      "relationship": "related descendant through Latin schola"
+    },
+    {
+      "lemma": "Schule",
+      "language": "German",
+      "relationship": "related borrowing/descendant ultimately from Latin schola"
+    }
+  ],
+  "historical_context": "The word’s development reflects a semantic path from leisure to learned discussion and finally to an institution dedicated to instruction. This makes it a useful example for semantic drift, not only geographic word migration.",
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/school",
+      "type": "dictionary"
+    },
+    {
+      "name": "Online Etymology Dictionary",
+      "url": "https://www.etymonline.com/word/school",
+      "type": "etymological dictionary"
+    }
+  ]
+}
