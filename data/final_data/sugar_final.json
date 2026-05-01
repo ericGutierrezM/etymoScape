@@ -5,45 +5,235 @@
   "title": "sugar",
   "lexical_info": {
     "part_of_speech": "noun",
-    "main_definition": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink."
+    "main_definition": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink.",
+    "tags": [
+      "uncountable"
+    ],
+    "inflections": [
+      "sugars"
+    ],
+    "pronunciation": [
+      "/ˈʃʊɡ.ə/",
+      "/ˈʃʊɡ.ɚ/",
+      "/ˈʃʉɡ.əɹ/"
+    ]
   },
   "raw_etymology": {
-    "text": "Etymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”). Akin to Ancient Greek κρόκη (krókē, “pebble”), whence the words crocodile and krokodil are derived. Doublet of jaggery and sucro-.\nThe verb is from Middle English sugren, from the noun.",
-    "source": "Wiktionary via Kaikki"
+    "text": "From Vulgar Latin *sucāre, from Latin sugere, from Proto-Indo-European *sug-, *suk-.\n\nEtymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”). Akin to Ancient Greek κρόκη (krókē, “pebble”), whence the words crocodile and krokodil are derived. Doublet of jaggery and sucro-.\nThe verb is from Middle English sugren, from the noun.\n\nFrom suge (“to suck”) + -ar. Compare Dalmatian sugol (“lamb”).\n\nFrom Latin exsūcāre (“to juice; to dry”) (compare Italian asciugare, Friulian suiâ).\n\nBorrowed from German saugen and Latin sūgere, and to some extent English suck.\n\nPseudo-anglicism, derived from sugar (“money”) via sugar daddy.\n\nFrom Vulgar Latin *sucāre, from Latin sūgere, from Proto-Indo-European *sug-, *suk-. Cognate with Galician sugar.\n\nFrom su + gar.",
+    "templates": [
+      {
+        "name": "etymon",
+        "args": {
+          "1": "en",
+          "id": "sugar sugar",
+          "2": ":inh",
+          "3": "enm:sugre",
+          "tree": "1",
+          "text": "++"
+        },
+        "expansion": "Etymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”)."
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "grc",
+          "2": "κρόκη",
+          "3": "",
+          "4": "pebble"
+        },
+        "expansion": "Ancient Greek κρόκη (krókē, “pebble”)"
+      },
+      {
+        "name": "doublet",
+        "args": {
+          "1": "en",
+          "2": "jaggery",
+          "3": "sucro-"
+        },
+        "expansion": "Doublet of jaggery and sucro-"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "enm",
+          "3": "sugren"
+        },
+        "expansion": "Middle English sugren"
+      },
+      {
+        "name": "compound",
+        "args": {
+          "1": "eu",
+          "2": "su",
+          "3": "gar"
+        },
+        "expansion": "su + gar"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "gl",
+          "2": "la-vul",
+          "3": "*sucāre"
+        },
+        "expansion": "Vulgar Latin *sucāre"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "gl",
+          "2": "la",
+          "3": "sugō",
+          "4": "sugere"
+        },
+        "expansion": "Latin sugere"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "gl",
+          "2": "ine-pro",
+          "3": "*sug-"
+        },
+        "expansion": "Proto-Indo-European *sug-"
+      },
+      {
+        "name": "bor",
+        "args": {
+          "1": "io",
+          "2": "de",
+          "3": "saugen"
+        },
+        "expansion": "German saugen"
+      },
+      {
+        "name": "bor",
+        "args": {
+          "1": "io",
+          "2": "la",
+          "3": "sūgō",
+          "4": "sūgere"
+        },
+        "expansion": "Latin sūgere"
+      },
+      {
+        "name": "bor",
+        "args": {
+          "1": "io",
+          "2": "en",
+          "3": "suck"
+        },
+        "expansion": "English suck"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "pt",
+          "2": "la-vul",
+          "3": "*sucō",
+          "4": "*sucāre"
+        },
+        "expansion": "Vulgar Latin *sucāre"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "pt",
+          "2": "la",
+          "3": "sugō",
+          "4": "sūgere"
+        },
+        "expansion": "Latin sūgere"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "pt",
+          "2": "ine-pro",
+          "3": "*sug-"
+        },
+        "expansion": "Proto-Indo-European *sug-"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "gl",
+          "2": "sugar"
+        },
+        "expansion": "Galician sugar"
+      },
+      {
+        "name": "wp",
+        "args": {
+          "1": "pt:relacionamento sugar"
+        },
+        "expansion": ""
+      },
+      {
+        "name": "pseudo-loan",
+        "args": {
+          "1": "pt",
+          "2": "en",
+          "3": "sugar<t:money>"
+        },
+        "expansion": "Pseudo-anglicism, derived from sugar (“money”)"
+      },
+      {
+        "name": "suffix",
+        "args": {
+          "1": "ro",
+          "2": "suge",
+          "t1": "to suck",
+          "3": "-ar"
+        },
+        "expansion": "suge (“to suck”) + -ar"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "dlm",
+          "2": "sugol",
+          "3": "",
+          "4": "lamb"
+        },
+        "expansion": "Dalmatian sugol (“lamb”)"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "vec",
+          "2": "la",
+          "3": "exsūcō",
+          "4": "exsūcāre",
+          "t": "to juice; to dry"
+        },
+        "expansion": "Latin exsūcāre (“to juice; to dry”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "it",
+          "2": "asciugare"
+        },
+        "expansion": "Italian asciugare"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "fur",
+          "2": "suiâ"
+        },
+        "expansion": "Friulian suiâ"
+      }
+    ],
+    "source": "Kaikki (Wiktionary extraction)",
+    "url": "https://en.wiktionary.org/wiki/sugar"
   },
-  "forms": [
-    {
-      "id": "en:sugar",
-      "lemma": "sugar",
-      "language": "English",
-      "period": "Modern English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    },
-    {
-      "id": "enm:sugren",
-      "lemma": "sugren",
-      "language": "Middle English",
-      "period": "Middle English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    }
-  ],
-  "edges": [
-    {
-      "from": "en:sugar",
-      "to": "enm:sugren",
-      "relation": "inherited_from",
-      "confidence": "high",
-      "note": "Middle English sugren"
-    }
-  ],
-  "short_summary": "The English word 'sugar' traces its origins back to Proto-Indo-European *ǵʰorkeh₂. It journeyed through Sanskrit, Gandhari, Middle Persian, Arabic, Old Italian, and Old French before being borrowed into Middle English as 'sugre' and finally evolving into modern English 'sugar'.",
-  "confidence_summary": "The etymology of 'sugar' is well-established and considered highly confident, with a clear lineage traced through multiple languages.",
+  "forms": [],
+  "edges": [],
+  "short_summary": "The English word \"sugar\" is inherited from Middle English \"sugre\", which was borrowed through Old French, Old Italian, Arabic, Middle Persian, and Gandhari, ultimately originating from Sanskrit \"śarkarā\" and Proto-Indo-European \"*ǵʰorkeh₂\" meaning \"gravel\".",
+  "confidence_summary": "The etymology is well-established, tracing a clear path of borrowings and inheritances from Proto-Indo-European to modern English.",
   "semantic_stages": [
     {
       "label": "Proto-Indo-European *ǵʰorkeh₂",
@@ -51,22 +241,11 @@
       "language": "Proto-Indo-European"
     },
     {
-      "label": "English sugar",
-      "meaning": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink.",
-      "language": "English"
+      "label": "Sanskrit शर्करा (śarkarā)",
+      "meaning": "sugar",
+      "language": "Sanskrit"
     }
   ],
-  "map_route": [
-    {
-      "label": "Middle English sugren",
-      "lat": 52.0,
-      "lon": -1.5
-    },
-    {
-      "label": "English sugar",
-      "lat": 52.0,
-      "lon": -1.5
-    }
-  ],
+  "map_route": [],
   "status": "published"
 }

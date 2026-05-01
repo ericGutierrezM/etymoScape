@@ -5,96 +5,95 @@
   "title": "algorithm",
   "lexical_info": {
     "part_of_speech": "noun",
-    "main_definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps."
+    "main_definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
+    "tags": [
+      "countable"
+    ],
+    "inflections": [
+      "algorithms"
+    ],
+    "pronunciation": [
+      "/ˈælɡəɹɪðm̩/",
+      "[ˈæɫɡəɹɪðm̩]",
+      "/əlˈɡɔrɪd̪ʱm̩/",
+      "/əlɡɵˈrɪd̪ʱm̩/"
+    ]
   },
   "raw_etymology": {
     "text": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm\nFrom Middle English algorisme, augrym, from Anglo-Norman algorisme, augrim, from Medieval Latin algorismus, from Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy), the nisba of Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī and a toponymic name meaning \"person from Chorasmia\". The spelling change (-s- > -th-) was influenced by unrelated Ancient Greek ἀριθμός (arithmós) (whence English arithmo-).",
-    "source": "Wiktionary via Kaikki"
+    "templates": [
+      {
+        "name": "etymon",
+        "args": {
+          "1": "en",
+          "id": "alg",
+          "2": "algorism<id:alg>",
+          "3": ":influence",
+          "4": "arithmo-<id:number>",
+          "tree": "1"
+        },
+        "expansion": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "enm",
+          "3": "algorisme"
+        },
+        "expansion": "Middle English algorisme"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "xno",
+          "3": "algorisme"
+        },
+        "expansion": "Anglo-Norman algorisme"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "la-med",
+          "3": "algorismus"
+        },
+        "expansion": "Medieval Latin algorismus"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "ar",
+          "3": "الخَوَارِزْمِيّ"
+        },
+        "expansion": "Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)"
+      },
+      {
+        "name": "ncog",
+        "args": {
+          "1": "grc",
+          "2": "ἀριθμός"
+        },
+        "expansion": "Ancient Greek ἀριθμός (arithmós)"
+      },
+      {
+        "name": "ncog",
+        "args": {
+          "1": "en",
+          "2": "arithmo-"
+        },
+        "expansion": "English arithmo-"
+      }
+    ],
+    "source": "Kaikki (Wiktionary extraction)",
+    "url": "https://en.wiktionary.org/wiki/algorithm"
   },
-  "forms": [
-    {
-      "id": "en:algorithm",
-      "lemma": "algorithm",
-      "language": "English",
-      "period": "Modern English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    },
-    {
-      "id": "enm:algorisme",
-      "lemma": "algorisme",
-      "language": "Middle English",
-      "period": "Middle English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    },
-    {
-      "id": "xno:algorisme",
-      "lemma": "algorisme",
-      "language": "xno",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": null
-    },
-    {
-      "id": "la-med:algorismus",
-      "lemma": "algorismus",
-      "language": "la-med",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": null
-    },
-    {
-      "id": "ar:الخَوَارِزْمِيّ",
-      "lemma": "الخَوَارِزْمِيّ",
-      "language": "Arabic",
-      "period": "Classical Arabic",
-      "region_label": "Arabic-speaking world",
-      "lat": 24.7,
-      "lon": 46.7,
-      "meaning": null
-    }
-  ],
-  "edges": [
-    {
-      "from": "en:algorithm",
-      "to": "enm:algorisme",
-      "relation": "inherited_from",
-      "confidence": "high",
-      "note": "Middle English algorisme"
-    },
-    {
-      "from": "enm:algorisme",
-      "to": "xno:algorisme",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Anglo-Norman algorisme"
-    },
-    {
-      "from": "xno:algorisme",
-      "to": "la-med:algorismus",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Medieval Latin algorismus"
-    },
-    {
-      "from": "la-med:algorismus",
-      "to": "ar:الخَوَارِزْمِيّ",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)"
-    }
-  ],
-  "short_summary": "The word \"algorithm\" originates from the Arabic nisba al-Khwārizmiyy, meaning \"person from Chorasmia,\" referring to the Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī. It then traversed through Medieval Latin, Anglo-Norman, and Middle English before its modern English form, which saw a spelling change influenced by Ancient Greek arithmós.",
-  "confidence_summary": "The etymology of \"algorithm\" is well-established, with all identified historical connections having high confidence.",
+  "forms": [],
+  "edges": [],
+  "short_summary": "The word 'algorithm' traces its origin to the Arabic al-Khwārizmiyy, meaning 'person from Chorasmia', referring to the mathematician al-Khwārizmī. It passed through Medieval Latin algorismus, Anglo-Norman algorisme, and Middle English algorisme before becoming English algorism. The modern spelling 'algorithm' was influenced by Ancient Greek arithmós.",
+  "confidence_summary": "This etymology is well-established, tracing a clear path of borrowing and influence across multiple languages.",
   "semantic_stages": [
     {
       "label": "al-Khwārizmiyy",
@@ -102,31 +101,51 @@
       "language": "Arabic"
     },
     {
-      "label": "algorismus",
-      "meaning": "system of arithmetic (named after al-Khwārizmī)",
-      "language": "Medieval Latin"
-    },
-    {
       "label": "algorithm",
-      "meaning": "A collection of ordered steps that solve a mathematical problem.",
+      "meaning": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
       "language": "English"
     }
   ],
   "map_route": [
     {
-      "label": "Arabic الخَوَارِزْمِيّ",
-      "lat": 24.7,
-      "lon": 46.7
+      "label": "Old Persian u-v-a-r-z-mi-i-š",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "label": "Classical Persian xwārazm",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "label": "Arabic al-Khwārizmiyy",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "label": "Medieval Latin algorismus",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "label": "Anglo-Norman algorisme",
+      "lat": null,
+      "lon": null
     },
     {
       "label": "Middle English algorisme",
-      "lat": 52.0,
-      "lon": -1.5
+      "lat": null,
+      "lon": null
+    },
+    {
+      "label": "English algorism",
+      "lat": null,
+      "lon": null
     },
     {
       "label": "English algorithm",
-      "lat": 52.0,
-      "lon": -1.5
+      "lat": null,
+      "lon": null
     }
   ],
   "status": "published"

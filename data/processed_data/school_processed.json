@@ -5,126 +5,402 @@
   "title": "school",
   "lexical_info": {
     "part_of_speech": "noun",
-    "main_definition": "An institution dedicated to teaching and learning; an educational institution."
+    "main_definition": "An institution dedicated to teaching and learning; an educational institution.",
+    "tags": [
+      "Canada",
+      "India",
+      "US",
+      "countable",
+      "uncountable"
+    ],
+    "inflections": [
+      "schools"
+    ],
+    "pronunciation": [
+      "/skuːl/",
+      "[skuːɫ]",
+      "/skul/",
+      "[skuɫ]",
+      "/skʉːl/",
+      "[skʉːɫ]",
+      "/skʉl/",
+      "/skɪʉːl/",
+      "/(ɪ)sk(h)uːl/"
+    ]
   },
   "raw_etymology": {
-    "text": "From Middle English scole, from Old English scōl (“place of education”), from Proto-West Germanic *skōlu, from Late Latin schola, scola (“learned discussion or dissertation, lecture, school”), from Ancient Greek σχολή (skholḗ, “spare time, leisure”), from Proto-Indo-European *seǵʰ- (“to hold, have, possess”). Doublet of schola and shul.\nCompare Old Frisian skūle, schūle (“school”) (West Frisian skoalle, Saterland Frisian Skoule), Dutch school (“school”), Low German School (“school”), Old High German scuola (“school”), German Schule (“school”), Old Norse skóli (“school”).\nInfluenced in some senses by Middle English schole (“group of persons, host, company”), from Middle Dutch scole (“multitude, troop, band”). See school (“group”). Related also to Old High German sigi (German Sieg, “victory”), Old English siġe, sigor (“victory”).",
-    "source": "Wiktionary via Kaikki"
+    "text": "From Middle Dutch schôle, from Latin schola, from Ancient Greek σχολή (skholḗ). Doublet of skorro and sjoel.\n\nFrom Middle English scole, from Old English scōl (“place of education”), from Proto-West Germanic *skōlu, from Late Latin schola, scola (“learned discussion or dissertation, lecture, school”), from Ancient Greek σχολή (skholḗ, “spare time, leisure”), from Proto-Indo-European *seǵʰ- (“to hold, have, possess”). Doublet of schola and shul.\nCompare Old Frisian skūle, schūle (“school”) (West Frisian skoalle, Saterland Frisian Skoule), Dutch school (“school”), Low German School (“school”), Old High German scuola (“school”), German Schule (“school”), Old Norse skóli (“school”).\nInfluenced in some senses by Middle English schole (“group of persons, host, company”), from Middle Dutch scole (“multitude, troop, band”). See school (“group”). Related also to Old High German sigi (German Sieg, “victory”), Old English siġe, sigor (“victory”).\n\nFrom Middle Dutch schōle, from Old Dutch *skola, from Proto-West Germanic *skolu, from Proto-Germanic *skulō, from Proto-Indo-European *(s)kʷel- (“crowd, people”).\n\nFrom Middle English scole, schole (“group of persons, multitude, host, school of fish”), from Middle Dutch scole (“multitude, troop of people, swarm of animals”), from Old Dutch *scola, *skola (“troop, multitude”), from Frankish *skolu, from Proto-Germanic *skulō (“crowd”), from Proto-Indo-European *(s)kʷel- (“crowd, people”).\nCognate with Middle Low German schōle (“multitude, troop”), Old English scolu (“troop or band of people, host, multitude, school of fish”). Doublet of shoal.\n\nSee the etymology of the corresponding lemma form.",
+    "templates": [
+      {
+        "name": "root",
+        "args": {
+          "1": "en",
+          "2": "ine-pro",
+          "3": "*seǵʰ-"
+        },
+        "expansion": ""
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "enm",
+          "3": "scole"
+        },
+        "expansion": "Middle English scole"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "ang",
+          "3": "scōl",
+          "t": "place of education"
+        },
+        "expansion": "Old English scōl (“place of education”)"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "gmw-pro",
+          "3": "*skōlu"
+        },
+        "expansion": "Proto-West Germanic *skōlu"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "la-lat",
+          "3": "schola"
+        },
+        "expansion": "Late Latin schola"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "grc",
+          "3": "σχολή",
+          "t": "spare time, leisure"
+        },
+        "expansion": "Ancient Greek σχολή (skholḗ, “spare time, leisure”)"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "ine-pro",
+          "3": "*seǵʰ-",
+          "t": "to hold, have, possess"
+        },
+        "expansion": "Proto-Indo-European *seǵʰ- (“to hold, have, possess”)"
+      },
+      {
+        "name": "doublet",
+        "args": {
+          "1": "en",
+          "2": "schola",
+          "3": "shul"
+        },
+        "expansion": "Doublet of schola and shul"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "ofs",
+          "2": "skūle"
+        },
+        "expansion": "Old Frisian skūle"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "fy",
+          "2": "skoalle"
+        },
+        "expansion": "West Frisian skoalle"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "stq",
+          "2": "Skoule"
+        },
+        "expansion": "Saterland Frisian Skoule"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "nl",
+          "2": "school",
+          "t": "school"
+        },
+        "expansion": "Dutch school (“school”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "nds",
+          "2": "School",
+          "t": "school"
+        },
+        "expansion": "Low German School (“school”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "goh",
+          "2": "scuola",
+          "t": "school"
+        },
+        "expansion": "Old High German scuola (“school”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "de",
+          "2": "Schule",
+          "t": "school"
+        },
+        "expansion": "German Schule (“school”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "non",
+          "2": "skóli",
+          "t": "school"
+        },
+        "expansion": "Old Norse skóli (“school”)"
+      },
+      {
+        "name": "m+",
+        "args": {
+          "1": "enm",
+          "2": "schole",
+          "3": "",
+          "4": "group of persons, host, company"
+        },
+        "expansion": "Middle English schole (“group of persons, host, company”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "dum",
+          "2": "scole",
+          "3": "",
+          "4": "multitude, troop, band"
+        },
+        "expansion": "Middle Dutch scole (“multitude, troop, band”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "de",
+          "2": "Sieg"
+        },
+        "expansion": "German Sieg"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "goh",
+          "2": "sigi",
+          "t": "victory",
+          "tr": "German <i class=\"Latn mention\" lang=\"de\">Sieg</i>"
+        },
+        "expansion": "Old High German sigi (German Sieg, “victory”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "ang",
+          "2": "siġe"
+        },
+        "expansion": "Old English siġe"
+      },
+      {
+        "name": "etymid",
+        "args": {
+          "1": "en",
+          "2": "group"
+        },
+        "expansion": ""
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "dum",
+          "3": "scole",
+          "4": "",
+          "5": "multitude, troop of people, swarm of animals"
+        },
+        "expansion": "Middle Dutch scole (“multitude, troop of people, swarm of animals”)"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "odt",
+          "3": "*scola"
+        },
+        "expansion": "Old Dutch *scola"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "frk",
+          "3": "*skolu"
+        },
+        "expansion": "Frankish *skolu"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "gem-pro",
+          "3": "*skulō",
+          "4": "",
+          "5": "crowd"
+        },
+        "expansion": "Proto-Germanic *skulō (“crowd”)"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "ine-pro",
+          "3": "*(s)kʷel-",
+          "4": "",
+          "5": "crowd, people"
+        },
+        "expansion": "Proto-Indo-European *(s)kʷel- (“crowd, people”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "gml",
+          "2": "schōle",
+          "3": "",
+          "4": "multitude, troop"
+        },
+        "expansion": "Middle Low German schōle (“multitude, troop”)"
+      },
+      {
+        "name": "cog",
+        "args": {
+          "1": "ang",
+          "2": "scolu",
+          "3": "",
+          "4": "troop or band of people, host, multitude, school of fish"
+        },
+        "expansion": "Old English scolu (“troop or band of people, host, multitude, school of fish”)"
+      },
+      {
+        "name": "doublet",
+        "args": {
+          "1": "en",
+          "2": "shoal",
+          "id1": "fish"
+        },
+        "expansion": "Doublet of shoal"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "nl",
+          "2": "dum",
+          "3": "schôle"
+        },
+        "expansion": "Middle Dutch schôle"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "nl",
+          "2": "la",
+          "3": "schola"
+        },
+        "expansion": "Latin schola"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "nl",
+          "2": "grc",
+          "3": "σχολή"
+        },
+        "expansion": "Ancient Greek σχολή (skholḗ)"
+      },
+      {
+        "name": "doublet",
+        "args": {
+          "1": "nl",
+          "2": "skorro",
+          "3": "sjoel"
+        },
+        "expansion": "Doublet of skorro and sjoel"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "nl",
+          "2": "dum",
+          "3": "schōle"
+        },
+        "expansion": "Middle Dutch schōle"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "nl",
+          "2": "odt",
+          "3": "*skola"
+        },
+        "expansion": "Old Dutch *skola"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "nl",
+          "2": "gmw-pro",
+          "3": "*skolu"
+        },
+        "expansion": "Proto-West Germanic *skolu"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "nl",
+          "2": "gem-pro",
+          "3": "*skulō"
+        },
+        "expansion": "Proto-Germanic *skulō"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "nl",
+          "2": "ine-pro",
+          "3": "*(s)kʷel-",
+          "4": "",
+          "5": "crowd, people"
+        },
+        "expansion": "Proto-Indo-European *(s)kʷel- (“crowd, people”)"
+      },
+      {
+        "name": "nonlemma",
+        "args": {},
+        "expansion": "See the etymology of the corresponding lemma form."
+      }
+    ],
+    "source": "Kaikki (Wiktionary extraction)",
+    "url": "https://en.wiktionary.org/wiki/school"
   },
-  "forms": [
-    {
-      "id": "en:school",
-      "lemma": "school",
-      "language": "English",
-      "period": "Modern English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    },
-    {
-      "id": "enm:scole",
-      "lemma": "scole",
-      "language": "Middle English",
-      "period": "Middle English",
-      "region_label": "England",
-      "lat": 52.0,
-      "lon": -1.5,
-      "meaning": null
-    },
-    {
-      "id": "ang:scōl",
-      "lemma": "scōl",
-      "language": "ang",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": "place of education"
-    },
-    {
-      "id": "gmw-pro:*skōlu",
-      "lemma": "*skōlu",
-      "language": "gmw-pro",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": null
-    },
-    {
-      "id": "la-lat:schola",
-      "lemma": "schola",
-      "language": "la-lat",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": null
-    },
-    {
-      "id": "grc:σχολή",
-      "lemma": "σχολή",
-      "language": "grc",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": "spare time, leisure"
-    },
-    {
-      "id": "ine-pro:*seǵʰ-",
-      "lemma": "*seǵʰ-",
-      "language": "ine-pro",
-      "period": null,
-      "region_label": null,
-      "lat": null,
-      "lon": null,
-      "meaning": "to hold, have, possess"
-    }
-  ],
-  "edges": [
-    {
-      "from": "en:school",
-      "to": "enm:scole",
-      "relation": "inherited_from",
-      "confidence": "high",
-      "note": "Middle English scole"
-    },
-    {
-      "from": "enm:scole",
-      "to": "ang:scōl",
-      "relation": "inherited_from",
-      "confidence": "high",
-      "note": "Old English scōl (“place of education”)"
-    },
-    {
-      "from": "ang:scōl",
-      "to": "gmw-pro:*skōlu",
-      "relation": "inherited_from",
-      "confidence": "high",
-      "note": "Proto-West Germanic *skōlu"
-    },
-    {
-      "from": "gmw-pro:*skōlu",
-      "to": "la-lat:schola",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Late Latin schola"
-    },
-    {
-      "from": "la-lat:schola",
-      "to": "grc:σχολή",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Ancient Greek σχολή (skholḗ, “spare time, leisure”)"
-    },
-    {
-      "from": "grc:σχολή",
-      "to": "ine-pro:*seǵʰ-",
-      "relation": "derived_from",
-      "confidence": "high",
-      "note": "Proto-Indo-European *seǵʰ- (“to hold, have, possess”)"
-    }
-  ]
+  "forms": [],
+  "edges": []
 }
