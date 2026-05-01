@@ -1,0 +1,72 @@
+{
+  "id": "en:sugar",
+  "query_word": "sugar",
+  "language": "English",
+  "title": "sugar",
+  "lexical_info": {
+    "part_of_speech": "noun",
+    "main_definition": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink."
+  },
+  "raw_etymology": {
+    "text": "Etymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”). Akin to Ancient Greek κρόκη (krókē, “pebble”), whence the words crocodile and krokodil are derived. Doublet of jaggery and sucro-.\nThe verb is from Middle English sugren, from the noun.",
+    "source": "Wiktionary via Kaikki"
+  },
+  "forms": [
+    {
+      "id": "en:sugar",
+      "lemma": "sugar",
+      "language": "English",
+      "period": "Modern English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    },
+    {
+      "id": "enm:sugren",
+      "lemma": "sugren",
+      "language": "Middle English",
+      "period": "Middle English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "en:sugar",
+      "to": "enm:sugren",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Middle English sugren"
+    }
+  ],
+  "short_summary": "The English word 'sugar' traces its origins back to Proto-Indo-European *ǵʰorkeh₂. It journeyed through Sanskrit, Gandhari, Middle Persian, Arabic, Old Italian, and Old French before being borrowed into Middle English as 'sugre' and finally evolving into modern English 'sugar'.",
+  "confidence_summary": "The etymology of 'sugar' is well-established and considered highly confident, with a clear lineage traced through multiple languages.",
+  "semantic_stages": [
+    {
+      "label": "Proto-Indo-European *ǵʰorkeh₂",
+      "meaning": "gravel",
+      "language": "Proto-Indo-European"
+    },
+    {
+      "label": "English sugar",
+      "meaning": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink.",
+      "language": "English"
+    }
+  ],
+  "map_route": [
+    {
+      "label": "Middle English sugren",
+      "lat": 52.0,
+      "lon": -1.5
+    },
+    {
+      "label": "English sugar",
+      "lat": 52.0,
+      "lon": -1.5
+    }
+  ],
+  "status": "published"
+}

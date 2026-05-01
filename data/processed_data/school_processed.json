@@ -1,0 +1,130 @@
+{
+  "id": "en:school",
+  "query_word": "school",
+  "language": "English",
+  "title": "school",
+  "lexical_info": {
+    "part_of_speech": "noun",
+    "main_definition": "An institution dedicated to teaching and learning; an educational institution."
+  },
+  "raw_etymology": {
+    "text": "From Middle English scole, from Old English scōl (“place of education”), from Proto-West Germanic *skōlu, from Late Latin schola, scola (“learned discussion or dissertation, lecture, school”), from Ancient Greek σχολή (skholḗ, “spare time, leisure”), from Proto-Indo-European *seǵʰ- (“to hold, have, possess”). Doublet of schola and shul.\nCompare Old Frisian skūle, schūle (“school”) (West Frisian skoalle, Saterland Frisian Skoule), Dutch school (“school”), Low German School (“school”), Old High German scuola (“school”), German Schule (“school”), Old Norse skóli (“school”).\nInfluenced in some senses by Middle English schole (“group of persons, host, company”), from Middle Dutch scole (“multitude, troop, band”). See school (“group”). Related also to Old High German sigi (German Sieg, “victory”), Old English siġe, sigor (“victory”).",
+    "source": "Wiktionary via Kaikki"
+  },
+  "forms": [
+    {
+      "id": "en:school",
+      "lemma": "school",
+      "language": "English",
+      "period": "Modern English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    },
+    {
+      "id": "enm:scole",
+      "lemma": "scole",
+      "language": "Middle English",
+      "period": "Middle English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    },
+    {
+      "id": "ang:scōl",
+      "lemma": "scōl",
+      "language": "ang",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": "place of education"
+    },
+    {
+      "id": "gmw-pro:*skōlu",
+      "lemma": "*skōlu",
+      "language": "gmw-pro",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": null
+    },
+    {
+      "id": "la-lat:schola",
+      "lemma": "schola",
+      "language": "la-lat",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": null
+    },
+    {
+      "id": "grc:σχολή",
+      "lemma": "σχολή",
+      "language": "grc",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": "spare time, leisure"
+    },
+    {
+      "id": "ine-pro:*seǵʰ-",
+      "lemma": "*seǵʰ-",
+      "language": "ine-pro",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": "to hold, have, possess"
+    }
+  ],
+  "edges": [
+    {
+      "from": "en:school",
+      "to": "enm:scole",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Middle English scole"
+    },
+    {
+      "from": "enm:scole",
+      "to": "ang:scōl",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Old English scōl (“place of education”)"
+    },
+    {
+      "from": "ang:scōl",
+      "to": "gmw-pro:*skōlu",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Proto-West Germanic *skōlu"
+    },
+    {
+      "from": "gmw-pro:*skōlu",
+      "to": "la-lat:schola",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Late Latin schola"
+    },
+    {
+      "from": "la-lat:schola",
+      "to": "grc:σχολή",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Ancient Greek σχολή (skholḗ, “spare time, leisure”)"
+    },
+    {
+      "from": "grc:σχολή",
+      "to": "ine-pro:*seǵʰ-",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Proto-Indo-European *seǵʰ- (“to hold, have, possess”)"
+    }
+  ]
+}

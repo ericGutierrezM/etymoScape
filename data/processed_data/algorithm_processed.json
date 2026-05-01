@@ -1,0 +1,96 @@
+{
+  "id": "en:algorithm",
+  "query_word": "algorithm",
+  "language": "English",
+  "title": "algorithm",
+  "lexical_info": {
+    "part_of_speech": "noun",
+    "main_definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps."
+  },
+  "raw_etymology": {
+    "text": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm\nFrom Middle English algorisme, augrym, from Anglo-Norman algorisme, augrim, from Medieval Latin algorismus, from Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy), the nisba of Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī and a toponymic name meaning \"person from Chorasmia\". The spelling change (-s- > -th-) was influenced by unrelated Ancient Greek ἀριθμός (arithmós) (whence English arithmo-).",
+    "source": "Wiktionary via Kaikki"
+  },
+  "forms": [
+    {
+      "id": "en:algorithm",
+      "lemma": "algorithm",
+      "language": "English",
+      "period": "Modern English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    },
+    {
+      "id": "enm:algorisme",
+      "lemma": "algorisme",
+      "language": "Middle English",
+      "period": "Middle English",
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": null
+    },
+    {
+      "id": "xno:algorisme",
+      "lemma": "algorisme",
+      "language": "xno",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": null
+    },
+    {
+      "id": "la-med:algorismus",
+      "lemma": "algorismus",
+      "language": "la-med",
+      "period": null,
+      "region_label": null,
+      "lat": null,
+      "lon": null,
+      "meaning": null
+    },
+    {
+      "id": "ar:الخَوَارِزْمِيّ",
+      "lemma": "الخَوَارِزْمِيّ",
+      "language": "Arabic",
+      "period": "Classical Arabic",
+      "region_label": "Arabic-speaking world",
+      "lat": 24.7,
+      "lon": 46.7,
+      "meaning": null
+    }
+  ],
+  "edges": [
+    {
+      "from": "en:algorithm",
+      "to": "enm:algorisme",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Middle English algorisme"
+    },
+    {
+      "from": "enm:algorisme",
+      "to": "xno:algorisme",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Anglo-Norman algorisme"
+    },
+    {
+      "from": "xno:algorisme",
+      "to": "la-med:algorismus",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Medieval Latin algorismus"
+    },
+    {
+      "from": "la-med:algorismus",
+      "to": "ar:الخَوَارِزْمِيّ",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)"
+    }
+  ]
+}

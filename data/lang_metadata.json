@@ -1,0 +1,9 @@
+{
+  "en": {"language": "English", "period": "Modern English", "lat": 52.0, "lon": -1.5, "region": "England"},
+  "enm": {"language": "Middle English", "period": "Middle English", "lat": 52.0, "lon": -1.5, "region": "England"},
+  "fro": {"language": "Old French", "period": "Old/Middle French", "lat": 46.2, "lon": 2.2, "region": "France"},
+  "ML.": {"language": "Medieval Latin", "period": "Medieval Latin", "lat": 43.8, "lon": 11.3, "region": "Western Europe"},
+  "ar": {"language": "Arabic", "period": "Classical Arabic", "lat": 24.7, "lon": 46.7, "region": "Arabic-speaking world"},
+  "fa": {"language": "Persian", "period": "Middle/New Persian", "lat": 32.4, "lon": 53.7, "region": "Persia"},
+  "sa": {"language": "Sanskrit", "period": "Sanskrit", "lat": 25.3, "lon": 82.9, "region": "North India"}
+}

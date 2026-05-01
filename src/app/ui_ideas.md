@@ -21,6 +21,7 @@
 - Language influence explorer
 - False friend warning
 - Filter graph by relation type
+- Give me a Random word mode
 
 ## Open questions
 
