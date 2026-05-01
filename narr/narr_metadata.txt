@@ -1,0 +1,1 @@
+This folder contains the files that outline the narrative of the whole project.

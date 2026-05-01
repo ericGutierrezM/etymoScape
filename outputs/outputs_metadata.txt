@@ -1,0 +1,1 @@
+This folder contains the outputs for this project, that is, files that are the final result and that are not needed further downstream.
