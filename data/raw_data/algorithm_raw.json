@@ -1,0 +1,1757 @@
+[
+  {
+    "senses": [
+      {
+        "examples": [
+          {
+            "text": "Informally, an algorithm is any well-defined computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output. An algorithm is thus a sequence of computational steps that transform the input into the output.",
+            "ref": "1990, Cormen, Leiserson, and Rivest, Introduction to Algorithms: page 1. Cambridge, MA, The MIT Press, 1999 (23rd printing)"
+          },
+          {
+            "text": "Mark Zuckerberg: No, I need the algorithm you used to rank chess players. / Eduardo Saverin: Are you OK? / Mark Zuckerberg: We're ranking girls.",
+            "ref": "2010, Aaron Sorkin, The Social Network:",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                32,
+                41
+              ]
+            ]
+          },
+          {
+            "text": "The use of algorithms in policing is one example of their increasing influence on our lives. And, as their ubiquity spreads, so too does the debate around whether we should allow ourselves to become so reliant on them – and who, if anyone, is policing their use.",
+            "ref": "2013 July 26, Leo Hickman, “How algorithms rule the world”, in The Guardian Weekly, volume 189, number 7, page 26:",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                11,
+                21
+              ]
+            ]
+          },
+          {
+            "text": "It’s a computer – an algorithm – and if you’ve been in Iran lately, they take you out of the system.",
+            "ref": "2018 June 25, Sam Jones, “Ex-Nato chief refused visa waiver to US because of Iran trips”, in The Guardian:",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                21,
+                30
+              ]
+            ]
+          }
+        ],
+        "categories": [
+          "English countable nouns",
+          "English terms with quotations"
+        ],
+        "raw_glosses": [
+          "(countable) A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps."
+        ],
+        "glosses": [
+          "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps."
+        ],
+        "tags": [
+          "countable"
+        ]
+      },
+      {
+        "examples": [
+          {
+            "text": "This retrospective observational analysis evaluated BP [blood pressure] control in an entirely remote management program before and during the pandemic. A team of pharmacists, nurse practitioners, physicians, and nonlicensed navigators used an evidence‐based clinical algorithm to optimize hypertensive treatment. The algorithm was adapted during the pandemic to simplify BP control.",
+            "ref": "2023, Lee SG, Blood AJ, Cannon CP, Gordon WJ, Nichols H, Zelle D, Scirica BM, Fisher NDL, “Remote cardiovascular hypertension program enhanced blood pressure control during the COVID-19 pandemic”, in J Am Heart Assoc, volume 12, number 6, →DOI, →PMID, page e027296:",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                268,
+                277
+              ],
+              [
+                318,
+                327
+              ]
+            ]
+          }
+        ],
+        "links": [
+          [
+            "flowchart",
+            "flowchart#English"
+          ],
+          [
+            "decision-making",
+            "decision-making#English"
+          ]
+        ],
+        "categories": [
+          "English terms with quotations"
+        ],
+        "raw_glosses": [
+          "(loosely) A flowchart illustrating a decision-making process for human users, especially health care professionals."
+        ],
+        "glosses": [
+          "A flowchart illustrating a decision-making process for human users, especially health care professionals."
+        ],
+        "tags": [
+          "broadly",
+          "countable",
+          "uncountable"
+        ]
+      },
+      {
+        "categories": [
+          "English terms with obsolete senses",
+          "English uncountable nouns"
+        ],
+        "links": [
+          [
+            "Calculation",
+            "calculation"
+          ],
+          [
+            "Arabic numeral",
+            "Arabic numeral"
+          ],
+          [
+            "algorism",
+            "algorism"
+          ]
+        ],
+        "raw_glosses": [
+          "(uncountable, obsolete) Calculation with Arabic numerals; algorism."
+        ],
+        "glosses": [
+          "Calculation with Arabic numerals; algorism."
+        ],
+        "tags": [
+          "obsolete",
+          "uncountable"
+        ]
+      },
+      {
+        "links": [
+          [
+            "social media",
+            "social media"
+          ],
+          [
+            "feeds",
+            "feed#English:_social_media"
+          ],
+          [
+            "definite article",
+            "definite article"
+          ],
+          [
+            "end users",
+            "end user"
+          ]
+        ],
+        "categories": [
+          "English metonyms",
+          "en:Social media"
+        ],
+        "raw_glosses": [
+          "(social media, metonymic) recommender systems and the curation of feeds",
+          "(usually preceded by definite article \"the\") software that makes content display determinations on a platform, in totality of effect upon all end users (within a potential audience)."
+        ],
+        "qualifier": "social media; usually preceded by definite article \"the\"; usually preceded by definite article \"the\"",
+        "glosses": [
+          "recommender systems and the curation of feeds",
+          "software that makes content display determinations on a platform, in totality of effect upon all end users (within a potential audience)."
+        ],
+        "tags": [
+          "countable",
+          "metonymically",
+          "uncountable"
+        ]
+      },
+      {
+        "examples": [
+          {
+            "text": "Glover began his acceptance speech by saying, “First, I want to thank the great algorithm that put us all here.”",
+            "ref": "2018 February 26, Tad Friend, quoting Donald Glover, “Donald Glover Can’t Save You”, in The New Yorker:",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                80,
+                89
+              ]
+            ]
+          }
+        ],
+        "links": [
+          [
+            "social media",
+            "social media"
+          ],
+          [
+            "feeds",
+            "feed#English:_social_media"
+          ],
+          [
+            "zeitgeist",
+            "zeitgeist"
+          ],
+          [
+            "trending",
+            "trending"
+          ],
+          [
+            "viral",
+            "viral"
+          ],
+          [
+            "main character",
+            "main character"
+          ],
+          [
+            "cancelled",
+            "cancelled"
+          ]
+        ],
+        "categories": [
+          "English informal terms",
+          "English metonyms",
+          "English terms with quotations",
+          "en:Social media"
+        ],
+        "raw_glosses": [
+          "(social media, metonymic) recommender systems and the curation of feeds",
+          "(informal, by extension of above) the influenced zeitgeist: e.g. what content ends up trending or viral, what persons become a main character or cancelled"
+        ],
+        "qualifier": "social media",
+        "glosses": [
+          "recommender systems and the curation of feeds",
+          "the influenced zeitgeist: e.g. what content ends up trending or viral, what persons become a main character or cancelled"
+        ],
+        "tags": [
+          "broadly",
+          "countable",
+          "informal",
+          "metonymically",
+          "uncountable"
+        ],
+        "raw_tags": [
+          "of above"
+        ]
+      },
+      {
+        "examples": [
+          {
+            "text": "… you and I probably didn't run across that in our algorithm, but that doesn't mean that a lot of people aren't gonna run across garbage like that in their algorithms in the next couple weeks…",
+            "ref": "2024 October 23, Ben Rhodes, “Trump Blames Zelensky for War, Sucks Up to Saudis” (23:52 from the start), in Pod Save the World (podcast):",
+            "type": "quotation",
+            "bold_text_offsets": [
+              [
+                47,
+                60
+              ],
+              [
+                150,
+                166
+              ]
+            ]
+          }
+        ],
+        "links": [
+          [
+            "social media",
+            "social media"
+          ],
+          [
+            "feeds",
+            "feed#English:_social_media"
+          ],
+          [
+            "possessive determiner",
+            "possessive determiner"
+          ],
+          [
+            "microtargeting",
+            "microtargeting"
+          ]
+        ],
+        "categories": [
+          "English informal terms",
+          "English metonyms",
+          "English terms with quotations",
+          "en:Social media"
+        ],
+        "raw_glosses": [
+          "(social media, metonymic) recommender systems and the curation of feeds",
+          "(informal, usually preceded by a possessive determiner) the actual personalized selections of content seen by specific user(s), the microtargeting to which they are subject"
+        ],
+        "qualifier": "social media; usually preceded by a possessive determiner; usually preceded by a possessive determiner",
+        "glosses": [
+          "recommender systems and the curation of feeds",
+          "the actual personalized selections of content seen by specific user(s), the microtargeting to which they are subject"
+        ],
+        "tags": [
+          "countable",
+          "informal",
+          "metonymically",
+          "uncountable"
+        ]
+      }
+    ],
+    "pos": "noun",
+    "head_templates": [
+      {
+        "name": "en-noun",
+        "args": {
+          "1": "~"
+        },
+        "expansion": "algorithm (countable and uncountable, plural algorithms)"
+      }
+    ],
+    "categories": [
+      "English countable nouns",
+      "English entries with etymology trees",
+      "English entries with incorrect language header",
+      "English eponyms",
+      "English lemmas",
+      "English nouns",
+      "English terms derived from Anglo-Norman",
+      "English terms derived from Arabic",
+      "English terms derived from Classical Persian",
+      "English terms derived from Medieval Latin",
+      "English terms derived from Middle English",
+      "English terms derived from Old Persian",
+      "English terms inherited from Middle English",
+      "English uncountable nouns",
+      "Entries with translation boxes",
+      "Pages with 1 entry",
+      "Pages with entries",
+      "Pages with etymology trees",
+      "Terms with Afrikaans translations",
+      "Terms with Albanian translations",
+      "Terms with Arabic translations",
+      "Terms with Aragonese translations",
+      "Terms with Aramaic translations",
+      "Terms with Armenian translations",
+      "Terms with Asturian translations",
+      "Terms with Azerbaijani translations",
+      "Terms with Belarusian translations",
+      "Terms with Bengali translations",
+      "Terms with Breton translations",
+      "Terms with Bulgarian translations",
+      "Terms with Catalan translations",
+      "Terms with Czech translations",
+      "Terms with Danish translations",
+      "Terms with Dutch translations",
+      "Terms with Esperanto translations",
+      "Terms with Estonian translations",
+      "Terms with Finnish translations",
+      "Terms with French translations",
+      "Terms with Galician translations",
+      "Terms with Georgian translations",
+      "Terms with German translations",
+      "Terms with Greek translations",
+      "Terms with Hebrew translations",
+      "Terms with Hindi translations",
+      "Terms with Hungarian translations",
+      "Terms with Icelandic translations",
+      "Terms with Ido translations",
+      "Terms with Indonesian translations",
+      "Terms with Interlingua translations",
+      "Terms with Italian translations",
+      "Terms with Japanese translations",
+      "Terms with Kazakh translations",
+      "Terms with Korean translations",
+      "Terms with Kyrgyz translations",
+      "Terms with Lao translations",
+      "Terms with Latin translations",
+      "Terms with Latvian translations",
+      "Terms with Lithuanian translations",
+      "Terms with Macedonian translations",
+      "Terms with Malay translations",
+      "Terms with Mandarin translations",
+      "Terms with Mirandese translations",
+      "Terms with Mongolian translations",
+      "Terms with Māori translations",
+      "Terms with Norwegian Bokmål translations",
+      "Terms with Occitan translations",
+      "Terms with Persian translations",
+      "Terms with Polish translations",
+      "Terms with Portuguese translations",
+      "Terms with Romanian translations",
+      "Terms with Russian translations",
+      "Terms with Scots translations",
+      "Terms with Serbo-Croatian translations",
+      "Terms with Slovak translations",
+      "Terms with Slovene translations",
+      "Terms with Spanish translations",
+      "Terms with Swedish translations",
+      "Terms with Tagalog translations",
+      "Terms with Tajik translations",
+      "Terms with Thai translations",
+      "Terms with Turkish translations",
+      "Terms with Turkmen translations",
+      "Terms with Ukrainian translations",
+      "Terms with Uzbek translations",
+      "Terms with Vietnamese translations",
+      "Terms with Yiddish translations",
+      "en:Computer science",
+      "en:Mathematics"
+    ],
+    "forms": [
+      {
+        "form": "algorithms",
+        "tags": [
+          "plural"
+        ]
+      },
+      {
+        "form": "algorism",
+        "tags": [
+          "alternative"
+        ]
+      },
+      {
+        "form": "augrim",
+        "tags": [
+          "alternative"
+        ]
+      }
+    ],
+    "hyponyms": [
+      {
+        "word": "approximation algorithm"
+      },
+      {
+        "word": "Baeza-Yates-Gonnet algorithm"
+      },
+      {
+        "word": "Baeza-Yates–Gonnet algorithm"
+      },
+      {
+        "word": "Baum-Welch algorithm"
+      },
+      {
+        "word": "Bellman-Ford algorithm"
+      },
+      {
+        "word": "Bitap algorithm"
+      },
+      {
+        "word": "Borůvka's algorithm"
+      },
+      {
+        "word": "Boyer-Moore-Horspool algorithm"
+      },
+      {
+        "word": "Bresenham's algorithm"
+      },
+      {
+        "word": "British Museum algorithm"
+      },
+      {
+        "word": "Buchberger's algorithm"
+      },
+      {
+        "word": "Chaitin's algorithm"
+      },
+      {
+        "word": "checksum algorithm"
+      },
+      {
+        "word": "classification algorithm"
+      },
+      {
+        "word": "Cohen-Sutherland algorithm"
+      },
+      {
+        "word": "compression algorithm"
+      },
+      {
+        "word": "computer arithmetic algorithm"
+      },
+      {
+        "word": "Cooley-Tukey algorithm"
+      },
+      {
+        "word": "Cyrus–Beck algorithm"
+      },
+      {
+        "word": "Davis-Putnam algorithm"
+      },
+      {
+        "word": "Day-Stout-Warren algorithm"
+      },
+      {
+        "word": "diamond-square algorithm"
+      },
+      {
+        "word": "Dijkstra's algorithm"
+      },
+      {
+        "word": "distributed algorithm"
+      },
+      {
+        "word": "divide and conquer algorithm"
+      },
+      {
+        "word": "DJP algorithm"
+      },
+      {
+        "word": "doomsday algorithm"
+      },
+      {
+        "word": "Douglas-Peucker algorithm"
+      },
+      {
+        "word": "Eppstein's algorithm"
+      },
+      {
+        "word": "Euclidean algorithm"
+      },
+      {
+        "word": "Euclid's algorithm"
+      },
+      {
+        "word": "extended Euclidean algorithm"
+      },
+      {
+        "word": "Fiduccia-Mattheyses algorithm"
+      },
+      {
+        "word": "Flajolet-Martin algorithm"
+      },
+      {
+        "word": "Floyd-Warshall algorithm"
+      },
+      {
+        "word": "forward-backward algorithm"
+      },
+      {
+        "word": "Gale-Shapley algorithm"
+      },
+      {
+        "word": "Gale–Church algorithm"
+      },
+      {
+        "word": "genetic algorithm"
+      },
+      {
+        "word": "Gibbs algorithm"
+      },
+      {
+        "word": "Girvan-Newman algorithm"
+      },
+      {
+        "word": "God's algorithm"
+      },
+      {
+        "word": "Gosper's algorithm"
+      },
+      {
+        "word": "greedy algorithm"
+      },
+      {
+        "word": "Grover's algorithm"
+      },
+      {
+        "word": "hash algorithm"
+      },
+      {
+        "word": "Hopcroft's algorithm"
+      },
+      {
+        "word": "Horspool's algorithm"
+      },
+      {
+        "word": "Jarník's algorithm"
+      },
+      {
+        "word": "Johnson's algorithm"
+      },
+      {
+        "word": "Kadane's algorithm"
+      },
+      {
+        "word": "Kahan summation algorithm"
+      },
+      {
+        "word": "Karatsuba algorithm"
+      },
+      {
+        "word": "Kernighan-Lin algorithm"
+      },
+      {
+        "word": "Knuth-Bendix completion algorithm"
+      },
+      {
+        "word": "Knuth-Morris-Pratt algorithm"
+      },
+      {
+        "word": "Kociemba's algorithm"
+      },
+      {
+        "word": "Korf's algorithm"
+      },
+      {
+        "word": "Kosaraju's algorithm"
+      },
+      {
+        "word": "Kruskal's algorithm"
+      },
+      {
+        "word": "Lanczos algorithm"
+      },
+      {
+        "word": "Las Vegas algorithm"
+      },
+      {
+        "word": "Lee algorithm"
+      },
+      {
+        "word": "Lesk algorithm"
+      },
+      {
+        "word": "Liang–Barsky algorithm"
+      },
+      {
+        "word": "Luhn algorithm"
+      },
+      {
+        "word": "memetic algorithm"
+      },
+      {
+        "word": "Metropolis-Hastings algorithm"
+      },
+      {
+        "word": "Nagle's algorithm"
+      },
+      {
+        "word": "Nicholl–Lee–Nicholl algorithm"
+      },
+      {
+        "word": "painter's algorithm"
+      },
+      {
+        "word": "parallel algorithm"
+      },
+      {
+        "word": "Peterson's algorithm"
+      },
+      {
+        "word": "Pollard's rho algorithm"
+      },
+      {
+        "word": "Prim-Dijkstra algorithm"
+      },
+      {
+        "word": "Prim-Jarník algorithm"
+      },
+      {
+        "word": "Prim's algorithm"
+      },
+      {
+        "word": "Quine-McCluskey algorithm"
+      },
+      {
+        "word": "Rabin-Karp algorithm"
+      },
+      {
+        "word": "Ramer-Douglas-Peucker algorithm"
+      },
+      {
+        "word": "randomized algorithm"
+      },
+      {
+        "word": "Reingold-Tilford algorithm"
+      },
+      {
+        "word": "Remez algorithm"
+      },
+      {
+        "word": "Rete algorithm"
+      },
+      {
+        "word": "Sattolo's algorithm"
+      },
+      {
+        "word": "Schensted algorithm"
+      },
+      {
+        "word": "Schönhage-Strassen algorithm"
+      },
+      {
+        "word": "semi-algorithm"
+      },
+      {
+        "word": "sequential algorithm"
+      },
+      {
+        "word": "Shor's algorithm"
+      },
+      {
+        "word": "shunting-yard algorithm"
+      },
+      {
+        "word": "SMAWK algorithm"
+      },
+      {
+        "word": "spigot algorithm"
+      },
+      {
+        "word": "Strassen algorithm"
+      },
+      {
+        "word": "Suurballe's algorithm"
+      },
+      {
+        "word": "Tarjan's algorithm"
+      },
+      {
+        "word": "Tarski-Kuratowski algorithm"
+      },
+      {
+        "word": "Thistlethwaite's algorithm"
+      },
+      {
+        "word": "time algorithm"
+      },
+      {
+        "word": "Toom-Cook algorithm"
+      },
+      {
+        "word": "Viterbi algorithm"
+      },
+      {
+        "word": "Volder's algorithm"
+      },
+      {
+        "word": "wake-sleep algorithm"
+      },
+      {
+        "word": "Warnock algorithm"
+      },
+      {
+        "word": "Warnock's algorithm"
+      },
+      {
+        "word": "ziggurat algorithm"
+      }
+    ],
+    "coordinate_terms": [
+      {
+        "word": "pseudoalgorithm"
+      }
+    ],
+    "derived": [
+      {
+        "word": "algocracy"
+      },
+      {
+        "word": "algorithmist"
+      },
+      {
+        "word": "algorithmocracy"
+      },
+      {
+        "word": "autoalgorithm"
+      },
+      {
+        "word": "multialgorithm"
+      },
+      {
+        "word": "polyalgorithm"
+      },
+      {
+        "word": "subalgorithm"
+      }
+    ],
+    "related": [
+      {
+        "word": "algebra"
+      },
+      {
+        "word": "algocracy"
+      },
+      {
+        "word": "algorism"
+      },
+      {
+        "word": "algorist"
+      },
+      {
+        "word": "algorithmic"
+      },
+      {
+        "word": "algorithmically"
+      },
+      {
+        "word": "algorithmics"
+      },
+      {
+        "word": "algorithmist"
+      },
+      {
+        "word": "algorithmization"
+      },
+      {
+        "word": "algorithmize"
+      },
+      {
+        "word": "algorithmocracy"
+      },
+      {
+        "word": "algorithmophile"
+      },
+      {
+        "word": "algorithmophobe"
+      },
+      {
+        "word": "autoalgorithm"
+      },
+      {
+        "word": "multialgorithm"
+      },
+      {
+        "word": "polyalgorithm"
+      },
+      {
+        "word": "subalgorithm"
+      },
+      {
+        "word": "data structure"
+      },
+      {
+        "word": "flow chart"
+      },
+      {
+        "word": "function"
+      },
+      {
+        "word": "program"
+      }
+    ],
+    "descendants": [
+      {
+        "lang": "Bengali",
+        "lang_code": "bn",
+        "word": "অ্যালগরিদম",
+        "raw_tags": [
+          "borrowed"
+        ],
+        "roman": "êlogridom"
+      },
+      {
+        "lang": "Danish",
+        "lang_code": "da",
+        "word": "algoritme",
+        "raw_tags": [
+          "borrowed"
+        ]
+      },
+      {
+        "lang": "Japanese",
+        "lang_code": "ja",
+        "word": "アルゴリズム",
+        "raw_tags": [
+          "borrowed"
+        ],
+        "roman": "arugorizumu"
+      },
+      {
+        "lang": "Korean",
+        "lang_code": "ko",
+        "word": "알고리즘",
+        "raw_tags": [
+          "borrowed"
+        ],
+        "roman": "algorijeum"
+      },
+      {
+        "lang": "Korean",
+        "lang_code": "ko",
+        "word": "알고리듬",
+        "raw_tags": [
+          "borrowed"
+        ],
+        "roman": "algorideum"
+      },
+      {
+        "lang": "Portuguese",
+        "lang_code": "pt",
+        "word": "algoritmo",
+        "raw_tags": [
+          "borrowed"
+        ]
+      }
+    ],
+    "translations": [
+      {
+        "lang": "Afrikaans",
+        "code": "af",
+        "lang_code": "af",
+        "sense": "well-defined procedure",
+        "word": "algoritme"
+      },
+      {
+        "lang": "Albanian",
+        "code": "sq",
+        "lang_code": "sq",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritëm"
+      },
+      {
+        "lang": "Arabic",
+        "code": "ar",
+        "lang_code": "ar",
+        "sense": "well-defined procedure",
+        "roman": "ḵawārizmiyya",
+        "tags": [
+          "feminine"
+        ],
+        "word": "خَوَارِزْمِيَّة"
+      },
+      {
+        "lang": "Aragonese",
+        "code": "an",
+        "lang_code": "an",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algorismo"
+      },
+      {
+        "lang": "Aramaic",
+        "code": "arc",
+        "lang_code": "arc",
+        "tags": [
+          "Syriac",
+          "masculine"
+        ],
+        "sense": "well-defined procedure",
+        "roman": "ḥūrrāzā",
+        "word": "ܚܘܪܙܐ"
+      },
+      {
+        "lang": "Armenian",
+        "code": "hy",
+        "lang_code": "hy",
+        "sense": "well-defined procedure",
+        "roman": "algoritʻm",
+        "word": "ալգորիթմ"
+      },
+      {
+        "lang": "Asturian",
+        "code": "ast",
+        "lang_code": "ast",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmu"
+      },
+      {
+        "lang": "Azerbaijani",
+        "code": "az",
+        "lang_code": "az",
+        "sense": "well-defined procedure",
+        "word": "alqoritm"
+      },
+      {
+        "lang": "Belarusian",
+        "code": "be",
+        "lang_code": "be",
+        "sense": "well-defined procedure",
+        "roman": "alharýtm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "алгары́тм"
+      },
+      {
+        "lang": "Belarusian",
+        "code": "be",
+        "lang_code": "be",
+        "sense": "well-defined procedure",
+        "roman": "alʹharýtm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "альгары́тм"
+      },
+      {
+        "lang": "Bengali",
+        "code": "bn",
+        "lang_code": "bn",
+        "sense": "well-defined procedure",
+        "roman": "êlgōridom",
+        "word": "অ্যালগরিদম"
+      },
+      {
+        "lang": "Breton",
+        "code": "br",
+        "lang_code": "br",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritm"
+      },
+      {
+        "lang": "Breton",
+        "code": "br",
+        "lang_code": "br",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "treol"
+      },
+      {
+        "lang": "Bulgarian",
+        "code": "bg",
+        "lang_code": "bg",
+        "sense": "well-defined procedure",
+        "roman": "algorítǎm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "алгори́тъм"
+      },
+      {
+        "lang": "Catalan",
+        "code": "ca",
+        "lang_code": "ca",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algorisme"
+      },
+      {
+        "lang": "Chinese Mandarin",
+        "code": "cmn",
+        "lang_code": "cmn",
+        "sense": "well-defined procedure",
+        "roman": "suànfǎ",
+        "word": "算法"
+      },
+      {
+        "lang": "Chinese Mandarin",
+        "code": "cmn",
+        "lang_code": "cmn",
+        "sense": "well-defined procedure",
+        "roman": "yǎnsuànfǎ",
+        "word": "演算法"
+      },
+      {
+        "lang": "Czech",
+        "code": "cs",
+        "lang_code": "cs",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmus"
+      },
+      {
+        "lang": "Danish",
+        "code": "da",
+        "lang_code": "da",
+        "sense": "well-defined procedure",
+        "tags": [
+          "common-gender"
+        ],
+        "word": "algoritme"
+      },
+      {
+        "lang": "Dutch",
+        "code": "nl",
+        "lang_code": "nl",
+        "sense": "well-defined procedure",
+        "tags": [
+          "neuter"
+        ],
+        "word": "algoritme"
+      },
+      {
+        "lang": "Esperanto",
+        "code": "eo",
+        "lang_code": "eo",
+        "sense": "well-defined procedure",
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Estonian",
+        "code": "et",
+        "lang_code": "et",
+        "sense": "well-defined procedure",
+        "word": "algoritm"
+      },
+      {
+        "lang": "Finnish",
+        "code": "fi",
+        "lang_code": "fi",
+        "sense": "well-defined procedure",
+        "word": "algoritmi"
+      },
+      {
+        "lang": "French",
+        "code": "fr",
+        "lang_code": "fr",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algorithme"
+      },
+      {
+        "lang": "Galician",
+        "code": "gl",
+        "lang_code": "gl",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Georgian",
+        "code": "ka",
+        "lang_code": "ka",
+        "sense": "well-defined procedure",
+        "roman": "algoritmi",
+        "word": "ალგორითმი"
+      },
+      {
+        "lang": "German",
+        "code": "de",
+        "lang_code": "de",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "Algorithmus"
+      },
+      {
+        "lang": "Greek",
+        "code": "el",
+        "lang_code": "el",
+        "sense": "well-defined procedure",
+        "roman": "algórithmos",
+        "tags": [
+          "masculine"
+        ],
+        "word": "αλγόριθμος"
+      },
+      {
+        "lang": "Hebrew",
+        "code": "he",
+        "lang_code": "he",
+        "sense": "well-defined procedure",
+        "roman": "algorítem",
+        "tags": [
+          "masculine"
+        ],
+        "word": "אַלגוֹרִיתְם"
+      },
+      {
+        "lang": "Hindi",
+        "code": "hi",
+        "lang_code": "hi",
+        "sense": "well-defined procedure",
+        "roman": "algoridma",
+        "word": "अल्गोरिद्म"
+      },
+      {
+        "lang": "Hungarian",
+        "code": "hu",
+        "lang_code": "hu",
+        "sense": "well-defined procedure",
+        "word": "algoritmus"
+      },
+      {
+        "lang": "Icelandic",
+        "code": "is",
+        "lang_code": "is",
+        "sense": "well-defined procedure",
+        "tags": [
+          "neuter"
+        ],
+        "word": "reiknirit"
+      },
+      {
+        "lang": "Icelandic",
+        "code": "is",
+        "lang_code": "is",
+        "sense": "well-defined procedure",
+        "tags": [
+          "neuter"
+        ],
+        "word": "algrím"
+      },
+      {
+        "lang": "Icelandic",
+        "code": "is",
+        "lang_code": "is",
+        "sense": "well-defined procedure",
+        "tags": [
+          "feminine"
+        ],
+        "word": "reiknisögn"
+      },
+      {
+        "lang": "Icelandic",
+        "code": "is",
+        "lang_code": "is",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algóriþmi"
+      },
+      {
+        "lang": "Ido",
+        "code": "io",
+        "lang_code": "io",
+        "sense": "well-defined procedure",
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Indonesian",
+        "code": "id",
+        "lang_code": "id",
+        "sense": "well-defined procedure",
+        "word": "algoritme"
+      },
+      {
+        "lang": "Interlingua",
+        "code": "ia",
+        "lang_code": "ia",
+        "sense": "well-defined procedure",
+        "word": "algorithmo"
+      },
+      {
+        "lang": "Italian",
+        "code": "it",
+        "lang_code": "it",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Japanese",
+        "code": "ja",
+        "lang_code": "ja",
+        "sense": "well-defined procedure",
+        "roman": "arugorizumu",
+        "word": "アルゴリズム"
+      },
+      {
+        "lang": "Japanese",
+        "code": "ja",
+        "lang_code": "ja",
+        "sense": "well-defined procedure",
+        "alt": "えんざんてじゅん",
+        "roman": "enzantejun",
+        "word": "演算手順"
+      },
+      {
+        "lang": "Japanese",
+        "code": "ja",
+        "lang_code": "ja",
+        "sense": "well-defined procedure",
+        "tags": [
+          "archaic"
+        ],
+        "alt": "さんぽう",
+        "roman": "sanpō",
+        "word": "算法"
+      },
+      {
+        "lang": "Kazakh",
+        "code": "kk",
+        "lang_code": "kk",
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "word": "алгоритм"
+      },
+      {
+        "lang": "Korean",
+        "code": "ko",
+        "lang_code": "ko",
+        "sense": "well-defined procedure",
+        "roman": "algorijeum",
+        "word": "알고리즘"
+      },
+      {
+        "lang": "Korean",
+        "code": "ko",
+        "lang_code": "ko",
+        "sense": "well-defined procedure",
+        "roman": "algorideum",
+        "word": "알고리듬"
+      },
+      {
+        "lang": "Korean",
+        "code": "ko",
+        "lang_code": "ko",
+        "sense": "well-defined procedure",
+        "roman": "sanbeop",
+        "alt": "算法",
+        "word": "산법"
+      },
+      {
+        "lang": "Kyrgyz",
+        "code": "ky",
+        "lang_code": "ky",
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "word": "алгоритм"
+      },
+      {
+        "lang": "Lao",
+        "code": "lo",
+        "lang_code": "lo",
+        "sense": "well-defined procedure",
+        "roman": "khan tǭn wi thī",
+        "word": "ຂັ້ນຕອນວິທີ"
+      },
+      {
+        "lang": "Latin",
+        "code": "la",
+        "lang_code": "la",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algorithmus"
+      },
+      {
+        "lang": "Latvian",
+        "code": "lv",
+        "lang_code": "lv",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritms"
+      },
+      {
+        "lang": "Lithuanian",
+        "code": "lt",
+        "lang_code": "lt",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmas"
+      },
+      {
+        "lang": "Macedonian",
+        "code": "mk",
+        "lang_code": "mk",
+        "sense": "well-defined procedure",
+        "roman": "algorítam",
+        "tags": [
+          "masculine"
+        ],
+        "word": "алгори́там"
+      },
+      {
+        "lang": "Malay",
+        "code": "ms",
+        "lang_code": "ms",
+        "sense": "well-defined procedure",
+        "word": "algoritma"
+      },
+      {
+        "lang": "Malay",
+        "code": "ms",
+        "lang_code": "ms",
+        "sense": "well-defined procedure",
+        "word": "alkhwarizmi"
+      },
+      {
+        "lang": "Māori",
+        "code": "mi",
+        "lang_code": "mi",
+        "sense": "well-defined procedure",
+        "word": "hātepe"
+      },
+      {
+        "lang": "Māori",
+        "code": "mi",
+        "lang_code": "mi",
+        "sense": "well-defined procedure",
+        "word": "hātepe papatono"
+      },
+      {
+        "lang": "Mirandese",
+        "code": "mwl",
+        "lang_code": "mwl",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Mongolian",
+        "code": "mn",
+        "lang_code": "mn",
+        "tags": [
+          "Cyrillic"
+        ],
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "word": "алгоритм"
+      },
+      {
+        "lang": "Norwegian Bokmål",
+        "code": "nb",
+        "lang_code": "nb",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritme"
+      },
+      {
+        "lang": "Occitan",
+        "code": "oc",
+        "lang_code": "oc",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritme"
+      },
+      {
+        "lang": "Persian",
+        "code": "fa",
+        "lang_code": "fa",
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "word": "الگوریتم"
+      },
+      {
+        "lang": "Persian",
+        "code": "fa",
+        "lang_code": "fa",
+        "sense": "well-defined procedure",
+        "roman": "xârazmi",
+        "word": "خوارزمی"
+      },
+      {
+        "lang": "Polish",
+        "code": "pl",
+        "lang_code": "pl",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algorytm"
+      },
+      {
+        "lang": "Portuguese",
+        "code": "pt",
+        "lang_code": "pt",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Romanian",
+        "code": "ro",
+        "lang_code": "ro",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritm"
+      },
+      {
+        "lang": "Russian",
+        "code": "ru",
+        "lang_code": "ru",
+        "sense": "well-defined procedure",
+        "roman": "algorítm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "алгори́тм"
+      },
+      {
+        "lang": "Scots",
+        "code": "sco",
+        "lang_code": "sco",
+        "sense": "well-defined procedure",
+        "word": "algorithm"
+      },
+      {
+        "lang": "Serbo-Croatian",
+        "code": "sh",
+        "lang_code": "sh",
+        "tags": [
+          "Cyrillic",
+          "masculine"
+        ],
+        "sense": "well-defined procedure",
+        "word": "алгорѝтам"
+      },
+      {
+        "lang": "Serbo-Croatian",
+        "code": "sh",
+        "lang_code": "sh",
+        "tags": [
+          "Latin",
+          "masculine"
+        ],
+        "sense": "well-defined procedure",
+        "word": "algorìtam"
+      },
+      {
+        "lang": "Slovak",
+        "code": "sk",
+        "lang_code": "sk",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmus"
+      },
+      {
+        "lang": "Slovene",
+        "code": "sl",
+        "lang_code": "sl",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritem"
+      },
+      {
+        "lang": "Spanish",
+        "code": "es",
+        "lang_code": "es",
+        "sense": "well-defined procedure",
+        "tags": [
+          "masculine"
+        ],
+        "word": "algoritmo"
+      },
+      {
+        "lang": "Swedish",
+        "code": "sv",
+        "lang_code": "sv",
+        "sense": "well-defined procedure",
+        "tags": [
+          "common-gender"
+        ],
+        "word": "algoritm"
+      },
+      {
+        "lang": "Tagalog",
+        "code": "tl",
+        "lang_code": "tl",
+        "sense": "well-defined procedure",
+        "word": "algorítmo"
+      },
+      {
+        "lang": "Tajik",
+        "code": "tg",
+        "lang_code": "tg",
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "word": "алгоритм"
+      },
+      {
+        "lang": "Thai",
+        "code": "th",
+        "lang_code": "th",
+        "sense": "well-defined procedure",
+        "roman": "kân-dtɔɔn-wí-tii",
+        "word": "ขั้นตอนวิธี"
+      },
+      {
+        "lang": "Thai",
+        "code": "th",
+        "lang_code": "th",
+        "sense": "well-defined procedure",
+        "roman": "an-gɔɔ-rí-tʉ̂m",
+        "word": "อัลกอริทึม"
+      },
+      {
+        "lang": "Turkish",
+        "code": "tr",
+        "lang_code": "tr",
+        "sense": "well-defined procedure",
+        "word": "algoritma"
+      },
+      {
+        "lang": "Turkmen",
+        "code": "tk",
+        "lang_code": "tk",
+        "sense": "well-defined procedure",
+        "word": "algoritm"
+      },
+      {
+        "lang": "Ukrainian",
+        "code": "uk",
+        "lang_code": "uk",
+        "sense": "well-defined procedure",
+        "roman": "alhorýtm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "алгори́тм"
+      },
+      {
+        "lang": "Uzbek",
+        "code": "uz",
+        "lang_code": "uz",
+        "sense": "well-defined procedure",
+        "word": "algoritm"
+      },
+      {
+        "lang": "Vietnamese",
+        "code": "vi",
+        "lang_code": "vi",
+        "sense": "well-defined procedure",
+        "word": "thuật toán"
+      },
+      {
+        "lang": "Yiddish",
+        "code": "yi",
+        "lang_code": "yi",
+        "sense": "well-defined procedure",
+        "roman": "algoritm",
+        "tags": [
+          "masculine"
+        ],
+        "word": "אַלגאָריטם"
+      }
+    ],
+    "wikipedia": [
+      "Muḥammad ibn Mūsā al-Khwārizmī"
+    ],
+    "etymology_text": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm\nFrom Middle English algorisme, augrym, from Anglo-Norman algorisme, augrim, from Medieval Latin algorismus, from Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy), the nisba of Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī and a toponymic name meaning \"person from Chorasmia\". The spelling change (-s- > -th-) was influenced by unrelated Ancient Greek ἀριθμός (arithmós) (whence English arithmo-).",
+    "etymology_templates": [
+      {
+        "name": "etymon",
+        "args": {
+          "1": "en",
+          "id": "alg",
+          "2": "algorism<id:alg>",
+          "3": ":influence",
+          "4": "arithmo-<id:number>",
+          "tree": "1"
+        },
+        "expansion": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm"
+      },
+      {
+        "name": "inh",
+        "args": {
+          "1": "en",
+          "2": "enm",
+          "3": "algorisme"
+        },
+        "expansion": "Middle English algorisme"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "xno",
+          "3": "algorisme"
+        },
+        "expansion": "Anglo-Norman algorisme"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "la-med",
+          "3": "algorismus"
+        },
+        "expansion": "Medieval Latin algorismus"
+      },
+      {
+        "name": "der",
+        "args": {
+          "1": "en",
+          "2": "ar",
+          "3": "الخَوَارِزْمِيّ"
+        },
+        "expansion": "Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)"
+      },
+      {
+        "name": "ncog",
+        "args": {
+          "1": "grc",
+          "2": "ἀριθμός"
+        },
+        "expansion": "Ancient Greek ἀριθμός (arithmós)"
+      },
+      {
+        "name": "ncog",
+        "args": {
+          "1": "en",
+          "2": "arithmo-"
+        },
+        "expansion": "English arithmo-"
+      }
+    ],
+    "sounds": [
+      {
+        "ipa": "/ˈælɡəɹɪðm̩/"
+      },
+      {
+        "ipa": "[ˈæɫɡəɹɪðm̩]"
+      },
+      {
+        "audio": "en-us-algorithm.ogg",
+        "ogg_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/En-us-algorithm.ogg",
+        "mp3_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/En-us-algorithm.ogg/En-us-algorithm.ogg.mp3"
+      },
+      {
+        "note": "Indic",
+        "ipa": "/əlˈɡɔrɪd̪ʱm̩/"
+      },
+      {
+        "note": "Indic",
+        "ipa": "/əlɡɵˈrɪd̪ʱm̩/"
+      }
+    ],
+    "hyphenations": [
+      {
+        "parts": [
+          "al",
+          "gorithm"
+        ],
+        "tags": [
+          "UK"
+        ]
+      },
+      {
+        "parts": [
+          "al",
+          "go",
+          "rithm"
+        ],
+        "tags": [
+          "US"
+        ]
+      }
+    ],
+    "word": "algorithm",
+    "lang": "English",
+    "lang_code": "en"
+  }
+]
