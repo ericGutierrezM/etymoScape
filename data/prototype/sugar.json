@@ -5,7 +5,15 @@
   "title": "sugar",
   "short_summary": "The English word “sugar” entered through French and medieval Latin, ultimately tracing back through Arabic and Persian to Sanskrit.",
   "confidence_summary": "The broad route is well established, though exact intermediate forms and dates may vary by source.",
-
+  "lexical_info": {
+  "part_of_speech": "noun",
+  "noun_type": "countable and uncountable",
+  "plural": "sugars",
+  "pronunciation": "/ˈʃʊɡəɹ/",
+  "main_definition": "A sweet crystalline substance used in food and drink.",
+  "usage_note": "Usually uncountable when referring to the substance; countable when referring to types, portions, or instances."
+  },
+  "story_type": "migration_word",
   "forms": [
     {
       "id": "eng:sugar",

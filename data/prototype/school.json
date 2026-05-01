@@ -7,6 +7,15 @@
   "short_summary": "The English word “school” comes through Old English and Latin from Ancient Greek skholḗ, a word originally associated with leisure or free time that later developed into the idea of learned discussion and formal instruction.",
   "confidence_summary": "The broad Greek → Latin → Old English → English route is well established. The semantic development from leisure to learned discussion and education is simplified here for prototype purposes.",
   "status": "draft",
+  "lexical_info": {
+  "part_of_speech": "noun",
+  "noun_type": "countable and uncountable",
+  "plural": "schools",
+  "pronunciation": "/skuːl/",
+  "main_definition": "An institution, place, or system for education and instruction.",
+  "usage_note": "Countable when referring to an institution, as in 'three schools'; often uncountable in phrases like 'go to school' or 'at school'."
+  },
+  "story_type": "semantic_drift_word",
   "forms": [
     {
       "id": "eng:school",

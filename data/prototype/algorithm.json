@@ -7,6 +7,15 @@
   "short_summary": "The English word “algorithm” ultimately comes from the Latinized name of the Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī. It first referred to arithmetic using Hindu-Arabic numerals and later broadened to mean a step-by-step computational procedure.",
   "confidence_summary": "The connection to al-Khwārizmī’s Latinized name is well established. The simplified route through Medieval Latin and later European mathematical vocabulary is sufficient for prototype purposes.",
   "status": "draft",
+  "lexical_info": {
+  "part_of_speech": "noun",
+  "noun_type": "countable",
+  "plural": "algorithms",
+  "pronunciation": "/ˈælɡəˌrɪðəm/",
+  "main_definition": "A step-by-step procedure or set of rules for solving a problem or performing a computation.",
+  "usage_note": "Common in mathematics, computer science, and everyday discussions of automated systems or recommendation platforms."
+  },
+  "story_type": "personal_name_origin",
   "forms": [
     {
       "id": "eng:algorithm",
