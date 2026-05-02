@@ -3,33 +3,17 @@
   "query_word": "school",
   "language": "English",
   "title": "school",
+  "story_type": "migration_word",
   "lexical_info": {
     "part_of_speech": "noun",
+    "noun_type": "Canada and India and US and countable and uncountable",
+    "plural": "schools",
+    "pronunciation": "/skuːl/",
     "main_definition": "An institution dedicated to teaching and learning; an educational institution.",
-    "tags": [
-      "Canada",
-      "India",
-      "US",
-      "countable",
-      "uncountable"
-    ],
-    "inflections": [
-      "schools"
-    ],
-    "pronunciation": [
-      "/skuːl/",
-      "[skuːɫ]",
-      "/skul/",
-      "[skuɫ]",
-      "/skʉːl/",
-      "[skʉːɫ]",
-      "/skʉl/",
-      "/skɪʉːl/",
-      "/(ɪ)sk(h)uːl/"
-    ]
+    "usage_note": ""
   },
   "raw_etymology": {
-    "text": "From Middle Dutch schôle, from Latin schola, from Ancient Greek σχολή (skholḗ). Doublet of skorro and sjoel.\n\nFrom Middle English scole, from Old English scōl (“place of education”), from Proto-West Germanic *skōlu, from Late Latin schola, scola (“learned discussion or dissertation, lecture, school”), from Ancient Greek σχολή (skholḗ, “spare time, leisure”), from Proto-Indo-European *seǵʰ- (“to hold, have, possess”). Doublet of schola and shul.\nCompare Old Frisian skūle, schūle (“school”) (West Frisian skoalle, Saterland Frisian Skoule), Dutch school (“school”), Low German School (“school”), Old High German scuola (“school”), German Schule (“school”), Old Norse skóli (“school”).\nInfluenced in some senses by Middle English schole (“group of persons, host, company”), from Middle Dutch scole (“multitude, troop, band”). See school (“group”). Related also to Old High German sigi (German Sieg, “victory”), Old English siġe, sigor (“victory”).\n\nFrom Middle Dutch schōle, from Old Dutch *skola, from Proto-West Germanic *skolu, from Proto-Germanic *skulō, from Proto-Indo-European *(s)kʷel- (“crowd, people”).\n\nFrom Middle English scole, schole (“group of persons, multitude, host, school of fish”), from Middle Dutch scole (“multitude, troop of people, swarm of animals”), from Old Dutch *scola, *skola (“troop, multitude”), from Frankish *skolu, from Proto-Germanic *skulō (“crowd”), from Proto-Indo-European *(s)kʷel- (“crowd, people”).\nCognate with Middle Low German schōle (“multitude, troop”), Old English scolu (“troop or band of people, host, multitude, school of fish”). Doublet of shoal.\n\nSee the etymology of the corresponding lemma form.",
+    "text": "From Middle English scole, schole (“group of persons, multitude, host, school of fish”), from Middle Dutch scole (“multitude, troop of people, swarm of animals”), from Old Dutch *scola, *skola (“troop, multitude”), from Frankish *skolu, from Proto-Germanic *skulō (“crowd”), from Proto-Indo-European *(s)kʷel- (“crowd, people”).\nCognate with Middle Low German schōle (“multitude, troop”), Old English scolu (“troop or band of people, host, multitude, school of fish”). Doublet of shoal.\n\nFrom Middle English scole, from Old English scōl (“place of education”), from Proto-West Germanic *skōlu, from Late Latin schola, scola (“learned discussion or dissertation, lecture, school”), from Ancient Greek σχολή (skholḗ, “spare time, leisure”), from Proto-Indo-European *seǵʰ- (“to hold, have, possess”). Doublet of schola and shul.\nCompare Old Frisian skūle, schūle (“school”) (West Frisian skoalle, Saterland Frisian Skoule), Dutch school (“school”), Low German School (“school”), Old High German scuola (“school”), German Schule (“school”), Old Norse skóli (“school”).\nInfluenced in some senses by Middle English schole (“group of persons, host, company”), from Middle Dutch scole (“multitude, troop, band”). See school (“group”). Related also to Old High German sigi (German Sieg, “victory”), Old English siġe, sigor (“victory”).",
     "templates": [
       {
         "name": "root",
@@ -308,99 +292,20 @@
           "id1": "fish"
         },
         "expansion": "Doublet of shoal"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "nl",
-          "2": "dum",
-          "3": "schôle"
-        },
-        "expansion": "Middle Dutch schôle"
-      },
-      {
-        "name": "der",
-        "args": {
-          "1": "nl",
-          "2": "la",
-          "3": "schola"
-        },
-        "expansion": "Latin schola"
-      },
-      {
-        "name": "der",
-        "args": {
-          "1": "nl",
-          "2": "grc",
-          "3": "σχολή"
-        },
-        "expansion": "Ancient Greek σχολή (skholḗ)"
-      },
-      {
-        "name": "doublet",
-        "args": {
-          "1": "nl",
-          "2": "skorro",
-          "3": "sjoel"
-        },
-        "expansion": "Doublet of skorro and sjoel"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "nl",
-          "2": "dum",
-          "3": "schōle"
-        },
-        "expansion": "Middle Dutch schōle"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "nl",
-          "2": "odt",
-          "3": "*skola"
-        },
-        "expansion": "Old Dutch *skola"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "nl",
-          "2": "gmw-pro",
-          "3": "*skolu"
-        },
-        "expansion": "Proto-West Germanic *skolu"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "nl",
-          "2": "gem-pro",
-          "3": "*skulō"
-        },
-        "expansion": "Proto-Germanic *skulō"
-      },
-      {
-        "name": "der",
-        "args": {
-          "1": "nl",
-          "2": "ine-pro",
-          "3": "*(s)kʷel-",
-          "4": "",
-          "5": "crowd, people"
-        },
-        "expansion": "Proto-Indo-European *(s)kʷel- (“crowd, people”)"
-      },
-      {
-        "name": "nonlemma",
-        "args": {},
-        "expansion": "See the etymology of the corresponding lemma form."
       }
-    ],
-    "source": "Kaikki (Wiktionary extraction)",
-    "url": "https://en.wiktionary.org/wiki/school"
+    ]
   },
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/school",
+      "type": "dictionary",
+      "via": "Kaikki.org",
+      "retrieval_date": "2026-05-01"
+    }
+  ],
   "forms": [],
-  "edges": []
+  "edges": [],
+  "map_route": [],
+  "semantic_stages": []
 }

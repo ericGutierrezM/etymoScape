@@ -1,34 +1,81 @@
 import json
 import os
 import glob
-from tqdm import tqdm
 import time
-
-# Import the new SDK components
+from datetime import date
+from tqdm import tqdm
 from google import genai
 from google.genai import types
 
-# Helper function to read the key from your file
 def load_api_key(filepath="data/google_api.txt"):
-    if not os.path.exists(filepath):
-        raise FileNotFoundError(f"⚠️ Could not find {filepath}. Please ensure it is in the same folder.")
     with open(filepath, "r", encoding="utf-8") as f:
-        # .strip() removes any accidental spaces or hidden newlines
         return f.read().strip()
 
-# Load the key and initialize the new GenAI Client
-API_KEY = load_api_key()
-client = genai.Client(api_key=API_KEY)
+client = genai.Client(api_key=load_api_key())
 
-SYSTEM_PROMPT = """You are an expert historical linguist and data structurer. Your job is to read a draft etymology JSON file containing raw dictionary text, structured word forms, and graph edges. 
+# The Ultimate Few-Shot System Prompt
+SYSTEM_PROMPT = """You are an expert historical linguist and geographer. You will receive a draft JSON for an English word. 
 
-Using ONLY the information provided in the input, you must generate four specific enrichment fields to complete the final JSON schema. Do not invent historical connections or forms that are not present in the input text or nodes.
+Your task is to parse the `raw_etymology` text and templates (especially the "etymon" tree if present) to extract the SINGLE, primary chronological chain of the main noun/root. 
+CRITICAL INSTRUCTION: Ignore derivations from other languages, side-branches, doublets, or verb forms (e.g., if the main word is a noun, ignore its verb descendant). 
 
-You must output a valid JSON object with EXACTLY these four keys:
-1. "short_summary": (string) 1-2 sentence human-readable narrative explaining the word's journey.
-2. "confidence_summary": (string) 1-sentence assessment of how certain this etymology is.
-3. "semantic_stages": (array of objects) [{"label": "...", "meaning": "...", "language": "..."}]. Only include if the meaning clearly shifted.
-4. "map_route": (array of objects) [{"label": "Language word", "lat": float, "lon": float}]. Order chronologically from oldest to newest.
+You must return a single valid JSON object. Use the following structure as your EXACT template, filling it with the data extracted from the prompt. Ensure the `sources` array explicitly mentions Kaikki as the extractor.
+
+EXPECTED OUTPUT TEMPLATE:
+{
+  "short_summary": "The English word “sugar” entered through French and medieval Latin...",
+  "confidence_summary": "The broad route is well established...",
+  "story_type": "migration_word",
+  "forms": [
+    {
+      "id": "eng:sugar",
+      "lemma": "sugar",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1200,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "sweet crystalline substance"
+    }
+  ],
+  "edges": [
+    {
+      "from": "eng:sugar",
+      "to": "fro:sucre",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "English borrowed the word through French."
+    }
+  ],
+  "semantic_stages": [
+    {
+      "label": "Granular material",
+      "meaning": "gravel, grit, or small particles",
+      "language": "Sanskrit",
+      "period": "Ancient",
+      "approx_year": -500
+    }
+  ],
+  "map_route": [
+    {
+      "label": "Sanskrit śárkarā",
+      "lat": 25.3,
+      "lon": 82.9
+    }
+  ],
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/sugar",
+      "type": "dictionary",
+      "via": "Kaikki.org",
+      "retrieval_date": "2026-05-01"
+    }
+  ],
+  "status": "auto_parsed_needs_review"
+}
 """
 
 def enrich_word(draft_filepath, output_dir="data/final_data", max_retries=3):
@@ -38,10 +85,8 @@ def enrich_word(draft_filepath, output_dir="data/final_data", max_retries=3):
         draft_data = json.load(f)
         
     word = draft_data.get("query_word", "unknown")
-    
     full_prompt = f"{SYSTEM_PROMPT}\n\nDraft Data to process:\n{json.dumps(draft_data, indent=2)}"
     
-    # --- THE RETRY LOOP ---
     for attempt in range(max_retries):
         try:
             response = client.models.generate_content(
@@ -52,29 +97,28 @@ def enrich_word(draft_filepath, output_dir="data/final_data", max_retries=3):
                     temperature=0.1,
                 )
             )
-            
-            # If successful, parse and break out of the retry loop
             llm_output = json.loads(response.text)
             break 
             
         except Exception as e:
             error_str = str(e)
-            
-            # Check if it's a traffic jam error (503 or 429)
             if "503" in error_str or "429" in error_str:
-                if attempt < max_retries - 1: # Don't sleep on the last attempt
-                    sleep_time = 2 ** attempt * 5 # Wait 5s, then 10s, then 20s...
+                if attempt < max_retries - 1:
+                    sleep_time = 2 ** attempt * 5
                     tqdm.write(f"⏳ Server busy. Retrying '{word}' in {sleep_time}s...")
                     time.sleep(sleep_time)
                     continue
-            
-            # If it's a different error, or we ran out of retries, fail gracefully
             return False, f"API Error after {attempt+1} attempts: {error_str}"
             
-    # --- MERGE & SAVE ---
     final_schema = draft_data.copy()
     final_schema.update(llm_output) 
-    final_schema["status"] = "published"
+    
+    # Force the status flag to be safe
+    final_schema["status"] = "auto_parsed_needs_review"
+    
+    # Inject today's date dynamically into the sources if the LLM hallucinated the template date
+    if "sources" in final_schema and len(final_schema["sources"]) > 0:
+         final_schema["sources"][0]["retrieval_date"] = date.today().isoformat()
     
     out_file = os.path.join(output_dir, f"{word}_final.json")
     with open(out_file, "w", encoding="utf-8") as f:
@@ -85,15 +129,11 @@ def enrich_word(draft_filepath, output_dir="data/final_data", max_retries=3):
 def process_enrichment_batch(input_dir="data/processed_data", output_dir="data/final_data"):
     search_pattern = os.path.join(input_dir, "*.json")
     draft_files = glob.glob(search_pattern)
-    
     if not draft_files:
         print(f"❌ No draft JSON files found in: '{input_dir}'")
         return
-
     print(f"Found {len(draft_files)} drafts. Starting Gemini enrichment...")
-    
     success_count = 0
-    
     for filepath in tqdm(draft_files, desc="Enriching Summaries"):
         success, error_msg = enrich_word(filepath, output_dir)
         if success:

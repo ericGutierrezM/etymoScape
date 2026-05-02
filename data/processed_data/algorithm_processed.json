@@ -3,21 +3,14 @@
   "query_word": "algorithm",
   "language": "English",
   "title": "algorithm",
+  "story_type": "migration_word",
   "lexical_info": {
     "part_of_speech": "noun",
+    "noun_type": "countable",
+    "plural": "algorithms",
+    "pronunciation": "/ˈælɡəɹɪðm̩/",
     "main_definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-    "tags": [
-      "countable"
-    ],
-    "inflections": [
-      "algorithms"
-    ],
-    "pronunciation": [
-      "/ˈælɡəɹɪðm̩/",
-      "[ˈæɫɡəɹɪðm̩]",
-      "/əlˈɡɔrɪd̪ʱm̩/",
-      "/əlɡɵˈrɪd̪ʱm̩/"
-    ]
+    "usage_note": ""
   },
   "raw_etymology": {
     "text": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm\nFrom Middle English algorisme, augrym, from Anglo-Norman algorisme, augrim, from Medieval Latin algorismus, from Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy), the nisba of Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī and a toponymic name meaning \"person from Chorasmia\". The spelling change (-s- > -th-) was influenced by unrelated Ancient Greek ἀριθμός (arithmós) (whence English arithmo-).",
@@ -86,10 +79,19 @@
         },
         "expansion": "English arithmo-"
       }
-    ],
-    "source": "Kaikki (Wiktionary extraction)",
-    "url": "https://en.wiktionary.org/wiki/algorithm"
+    ]
   },
+  "sources": [
+    {
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/algorithm",
+      "type": "dictionary",
+      "via": "Kaikki.org",
+      "retrieval_date": "2026-05-01"
+    }
+  ],
   "forms": [],
-  "edges": []
+  "edges": [],
+  "map_route": [],
+  "semantic_stages": []
 }

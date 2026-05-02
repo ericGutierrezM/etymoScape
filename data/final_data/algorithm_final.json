@@ -3,21 +3,14 @@
   "query_word": "algorithm",
   "language": "English",
   "title": "algorithm",
+  "story_type": "migration_word",
   "lexical_info": {
     "part_of_speech": "noun",
+    "noun_type": "countable",
+    "plural": "algorithms",
+    "pronunciation": "/ˈælɡəɹɪðm̩/",
     "main_definition": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-    "tags": [
-      "countable"
-    ],
-    "inflections": [
-      "algorithms"
-    ],
-    "pronunciation": [
-      "/ˈælɡəɹɪðm̩/",
-      "[ˈæɫɡəɹɪðm̩]",
-      "/əlˈɡɔrɪd̪ʱm̩/",
-      "/əlɡɵˈrɪd̪ʱm̩/"
-    ]
+    "usage_note": ""
   },
   "raw_etymology": {
     "text": "Etymology tree\nArabic ال (al-)\nOld Persian 𐎢𐎺𐎠𐎼𐏀𐎷𐎡𐏁 (u-v-a-r-z-mi-i-š)\nClassical Persian خْوَارَزْم (xwārazm)bor.\nArabic خَوَارِزْم (ḵawārizm)\nArabic ـِيّ (-iyy)\nArabic خَوَارِزْمِيّ (ḵawārizmiyy)\nArabic الخَوَارِزْمِيّ (al-ḵawārizmiyy)bor.\nMedieval Latin algorismusbor.\nAnglo-Norman algorismebor.\nMiddle English algorisme\nEnglish algorism\n▲\nEnglish arithmo-influ.\nEnglish algorithm\nFrom Middle English algorisme, augrym, from Anglo-Norman algorisme, augrim, from Medieval Latin algorismus, from Arabic الخَوَارِزْمِيّ (al-ḵawārizmiyy), the nisba of Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī and a toponymic name meaning \"person from Chorasmia\". The spelling change (-s- > -th-) was influenced by unrelated Ancient Greek ἀριθμός (arithmós) (whence English arithmo-).",
@@ -86,67 +79,253 @@
         },
         "expansion": "English arithmo-"
       }
-    ],
-    "source": "Kaikki (Wiktionary extraction)",
-    "url": "https://en.wiktionary.org/wiki/algorithm"
+    ]
   },
-  "forms": [],
-  "edges": [],
-  "short_summary": "The word 'algorithm' traces its origin to the Arabic al-Khwārizmiyy, meaning 'person from Chorasmia', referring to the mathematician al-Khwārizmī. It passed through Medieval Latin algorismus, Anglo-Norman algorisme, and Middle English algorisme before becoming English algorism. The modern spelling 'algorithm' was influenced by Ancient Greek arithmós.",
-  "confidence_summary": "This etymology is well-established, tracing a clear path of borrowing and influence across multiple languages.",
-  "semantic_stages": [
+  "sources": [
     {
-      "label": "al-Khwārizmiyy",
-      "meaning": "person from Chorasmia",
-      "language": "Arabic"
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/algorithm",
+      "type": "dictionary",
+      "via": "Kaikki.org",
+      "retrieval_date": "2026-05-01"
+    }
+  ],
+  "forms": [
+    {
+      "id": "eng:algorithm",
+      "lemma": "algorithm",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1800,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "A collection of ordered steps that solve a mathematical problem; a precise step-by-step plan for a computational procedure."
     },
     {
-      "label": "algorithm",
-      "meaning": "A collection of ordered steps that solve a mathematical problem. A precise step-by-step plan for a computational procedure that possibly begins with an input value and yields an output value in a finite number of steps.",
-      "language": "English"
+      "id": "eng:algorism",
+      "lemma": "algorism",
+      "language": "English",
+      "period": "Early Modern English",
+      "approx_start_year": 1500,
+      "approx_end_year": 1800,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "The Arabic numeral system; arithmetic using Arabic numerals."
+    },
+    {
+      "id": "enm:algorisme",
+      "lemma": "algorisme",
+      "language": "Middle English",
+      "period": "Middle English",
+      "approx_start_year": 1200,
+      "approx_end_year": 1500,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "The Arabic numeral system; arithmetic using Arabic numerals."
+    },
+    {
+      "id": "xno:algorisme",
+      "lemma": "algorisme",
+      "language": "Anglo-Norman",
+      "period": "Anglo-Norman",
+      "approx_start_year": 1100,
+      "approx_end_year": 1400,
+      "region_label": "Normandy/England",
+      "lat": 49.1,
+      "lon": -0.3,
+      "meaning": "The Arabic numeral system; arithmetic using Arabic numerals."
+    },
+    {
+      "id": "la-med:algorismus",
+      "lemma": "algorismus",
+      "language": "Medieval Latin",
+      "period": "Medieval Latin",
+      "approx_start_year": 1100,
+      "approx_end_year": 1300,
+      "region_label": "Europe",
+      "lat": 45.0,
+      "lon": 10.0,
+      "meaning": "The system of Arabic numerals; arithmetic, named after al-Khwarizmi."
+    },
+    {
+      "id": "ar:al-khwarizmiyy",
+      "lemma": "al-Khwārizmiyy",
+      "language": "Arabic",
+      "period": "Classical Arabic",
+      "approx_start_year": 800,
+      "approx_end_year": 1000,
+      "region_label": "Baghdad",
+      "lat": 33.3,
+      "lon": 44.4,
+      "meaning": "Person from Khwarazm (a nisba referring to the mathematician Muḥammad ibn Mūsā al-Khwārizmī)."
+    },
+    {
+      "id": "ar:khwarizm",
+      "lemma": "Khwārizm",
+      "language": "Arabic",
+      "period": "Classical Arabic",
+      "approx_start_year": 750,
+      "approx_end_year": 950,
+      "region_label": "Khwarazm/Baghdad",
+      "lat": 41.3,
+      "lon": 60.3,
+      "meaning": "Khwarazm (a historical region in Central Asia)."
+    },
+    {
+      "id": "fa:khwarazm",
+      "lemma": "xwārazm",
+      "language": "Classical Persian",
+      "period": "Classical Persian",
+      "approx_start_year": 700,
+      "approx_end_year": 900,
+      "region_label": "Khwarazm",
+      "lat": 41.3,
+      "lon": 60.3,
+      "meaning": "Khwarazm (a historical region in Central Asia)."
+    },
+    {
+      "id": "peo:u-v-a-r-z-mi-i-s",
+      "lemma": "u-v-a-r-z-mi-i-š",
+      "language": "Old Persian",
+      "period": "Ancient",
+      "approx_start_year": -500,
+      "approx_end_year": 0,
+      "region_label": "Khwarazm",
+      "lat": 41.3,
+      "lon": 60.3,
+      "meaning": "Khwarazm (a historical region in Central Asia)."
+    }
+  ],
+  "edges": [
+    {
+      "from": "eng:algorithm",
+      "to": "eng:algorism",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "The word 'algorithm' evolved from 'algorism' with a spelling change influenced by 'arithmetic'."
+    },
+    {
+      "from": "eng:algorism",
+      "to": "enm:algorisme",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "English 'algorism' is inherited from Middle English 'algorisme'."
+    },
+    {
+      "from": "enm:algorisme",
+      "to": "xno:algorisme",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Middle English 'algorisme' was borrowed from Anglo-Norman 'algorisme'."
+    },
+    {
+      "from": "xno:algorisme",
+      "to": "la-med:algorismus",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Anglo-Norman 'algorisme' was borrowed from Medieval Latin 'algorismus'."
+    },
+    {
+      "from": "la-med:algorismus",
+      "to": "ar:al-khwarizmiyy",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Medieval Latin 'algorismus' is a Latinization of the Arabic 'al-Khwārizmiyy'."
+    },
+    {
+      "from": "ar:al-khwarizmiyy",
+      "to": "ar:khwarizm",
+      "relation": "derived_from",
+      "confidence": "high",
+      "note": "Arabic 'al-Khwārizmiyy' is a nisba (adjective of relation) derived from the place name 'Khwarazm'."
+    },
+    {
+      "from": "ar:khwarizm",
+      "to": "fa:khwarazm",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Arabic 'Khwarazm' was borrowed from Classical Persian 'xwārazm'."
+    },
+    {
+      "from": "fa:khwarazm",
+      "to": "peo:u-v-a-r-z-mi-i-s",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Classical Persian 'xwārazm' is inherited from Old Persian 'u-v-a-r-z-mi-i-š'."
     }
   ],
   "map_route": [
     {
-      "label": "Old Persian u-v-a-r-z-mi-i-š",
-      "lat": null,
-      "lon": null
+      "label": "Old Persian Khwarazm",
+      "lat": 41.3,
+      "lon": 60.3
     },
     {
-      "label": "Classical Persian xwārazm",
-      "lat": null,
-      "lon": null
+      "label": "Classical Persian Khwarazm",
+      "lat": 41.3,
+      "lon": 60.3
     },
     {
-      "label": "Arabic al-Khwārizmiyy",
-      "lat": null,
-      "lon": null
+      "label": "Arabic Baghdad (al-Khwarizmi)",
+      "lat": 33.3,
+      "lon": 44.4
     },
     {
-      "label": "Medieval Latin algorismus",
-      "lat": null,
-      "lon": null
+      "label": "Medieval Latin Europe (translations)",
+      "lat": 40.0,
+      "lon": 5.0
     },
     {
-      "label": "Anglo-Norman algorisme",
-      "lat": null,
-      "lon": null
+      "label": "Anglo-Norman England/France",
+      "lat": 50.0,
+      "lon": 0.0
     },
     {
-      "label": "Middle English algorisme",
-      "lat": null,
-      "lon": null
+      "label": "Middle English England",
+      "lat": 52.0,
+      "lon": -1.5
     },
     {
-      "label": "English algorism",
-      "lat": null,
-      "lon": null
-    },
-    {
-      "label": "English algorithm",
-      "lat": null,
-      "lon": null
+      "label": "Modern English Global",
+      "lat": 52.0,
+      "lon": -1.5
     }
   ],
-  "status": "published"
+  "semantic_stages": [
+    {
+      "label": "Place Name",
+      "meaning": "The region of Khwarazm in Central Asia.",
+      "language": "Old Persian",
+      "period": "Ancient",
+      "approx_year": -500
+    },
+    {
+      "label": "Person from Khwarazm",
+      "meaning": "Referring to the mathematician Muḥammad ibn Mūsā al-Khwārizmī.",
+      "language": "Arabic",
+      "period": "Classical Arabic",
+      "approx_year": 800
+    },
+    {
+      "label": "System of Calculation",
+      "meaning": "Arithmetic using Arabic numerals, named after al-Khwarizmi's work.",
+      "language": "Medieval Latin",
+      "period": "Medieval",
+      "approx_year": 1100
+    },
+    {
+      "label": "Computational Procedure",
+      "meaning": "A precise step-by-step plan for solving a problem, especially in computing.",
+      "language": "English",
+      "period": "Modern",
+      "approx_year": 1800
+    }
+  ],
+  "short_summary": "The English word “algorithm” evolved from “algorism,” which was borrowed through Anglo-Norman and Medieval Latin. The Latin term “algorismus” was a Latinization of the Arabic “al-Khwarizmi,” referring to the 9th-century Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī. His name meant 'person from Khwarazm,' a region in Central Asia, whose name has Old Persian roots. The modern spelling of 'algorithm' was influenced by 'arithmetic.'",
+  "confidence_summary": "The etymological path of 'algorithm' is very well-established and widely accepted, tracing back to the name of the Persian mathematician al-Khwarizmi and the region of Khwarazm. The influence of 'arithmetic' on the spelling change is also clearly documented.",
+  "status": "auto_parsed_needs_review"
 }

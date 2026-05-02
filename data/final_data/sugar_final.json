@@ -3,23 +3,17 @@
   "query_word": "sugar",
   "language": "English",
   "title": "sugar",
+  "story_type": "migration_word",
   "lexical_info": {
     "part_of_speech": "noun",
+    "noun_type": "uncountable",
+    "plural": "sugars",
+    "pronunciation": "/ˈʃʊɡ.ə/",
     "main_definition": "Sucrose in the form of small crystals, obtained from sugar cane or sugar beet and used to sweeten food and drink.",
-    "tags": [
-      "uncountable"
-    ],
-    "inflections": [
-      "sugars"
-    ],
-    "pronunciation": [
-      "/ˈʃʊɡ.ə/",
-      "/ˈʃʊɡ.ɚ/",
-      "/ˈʃʉɡ.əɹ/"
-    ]
+    "usage_note": ""
   },
   "raw_etymology": {
-    "text": "From Vulgar Latin *sucāre, from Latin sugere, from Proto-Indo-European *sug-, *suk-.\n\nEtymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”). Akin to Ancient Greek κρόκη (krókē, “pebble”), whence the words crocodile and krokodil are derived. Doublet of jaggery and sucro-.\nThe verb is from Middle English sugren, from the noun.\n\nFrom suge (“to suck”) + -ar. Compare Dalmatian sugol (“lamb”).\n\nFrom Latin exsūcāre (“to juice; to dry”) (compare Italian asciugare, Friulian suiâ).\n\nBorrowed from German saugen and Latin sūgere, and to some extent English suck.\n\nPseudo-anglicism, derived from sugar (“money”) via sugar daddy.\n\nFrom Vulgar Latin *sucāre, from Latin sūgere, from Proto-Indo-European *sug-, *suk-. Cognate with Galician sugar.\n\nFrom su + gar.",
+    "text": "Etymology tree\nProto-Indo-European *ḱorkeh₂\nProto-Indo-Iranian *ćárkaraH\nProto-Indo-Aryan *śárkaraH\nSanskrit शर्क॑रा (śárkarā)\nGandhari 𐨭𐨐𐨪 (śakara)bor.\nMiddle Persian 𐭱𐭪𐭥 (šakar)bor.\nArabic سُكَّر (sukkar)bor.\nOld Italian zuccherobor.\nOld French çucrebor.\nMiddle English sugre\nEnglish sugar\nInherited from Middle English sugre, borrowed from Old French çucre, borrowed from Old Italian zucchero, borrowed from Arabic سُكَّر (sukkar), borrowed from Middle Persian 𐭱𐭪𐭥 (šakar), borrowed from Gandhari 𐨭𐨐𐨪 (śakara), from Sanskrit शर्क॑रा (śárkarā), from Proto-Indo-Aryan *śárkaraH, from Proto-Indo-Iranian *ćárkaraH, from Proto-Indo-European *ḱorkeh₂ (“gravel”). Akin to Ancient Greek κρόκη (krókē, “pebble”), whence the words crocodile and krokodil are derived. Doublet of jaggery and sucro-.\nThe verb is from Middle English sugren, from the noun.",
     "templates": [
       {
         "name": "etymon",
@@ -60,192 +54,290 @@
           "3": "sugren"
         },
         "expansion": "Middle English sugren"
-      },
-      {
-        "name": "compound",
-        "args": {
-          "1": "eu",
-          "2": "su",
-          "3": "gar"
-        },
-        "expansion": "su + gar"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "gl",
-          "2": "la-vul",
-          "3": "*sucāre"
-        },
-        "expansion": "Vulgar Latin *sucāre"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "gl",
-          "2": "la",
-          "3": "sugō",
-          "4": "sugere"
-        },
-        "expansion": "Latin sugere"
-      },
-      {
-        "name": "der",
-        "args": {
-          "1": "gl",
-          "2": "ine-pro",
-          "3": "*sug-"
-        },
-        "expansion": "Proto-Indo-European *sug-"
-      },
-      {
-        "name": "bor",
-        "args": {
-          "1": "io",
-          "2": "de",
-          "3": "saugen"
-        },
-        "expansion": "German saugen"
-      },
-      {
-        "name": "bor",
-        "args": {
-          "1": "io",
-          "2": "la",
-          "3": "sūgō",
-          "4": "sūgere"
-        },
-        "expansion": "Latin sūgere"
-      },
-      {
-        "name": "bor",
-        "args": {
-          "1": "io",
-          "2": "en",
-          "3": "suck"
-        },
-        "expansion": "English suck"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "pt",
-          "2": "la-vul",
-          "3": "*sucō",
-          "4": "*sucāre"
-        },
-        "expansion": "Vulgar Latin *sucāre"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "pt",
-          "2": "la",
-          "3": "sugō",
-          "4": "sūgere"
-        },
-        "expansion": "Latin sūgere"
-      },
-      {
-        "name": "der",
-        "args": {
-          "1": "pt",
-          "2": "ine-pro",
-          "3": "*sug-"
-        },
-        "expansion": "Proto-Indo-European *sug-"
-      },
-      {
-        "name": "cog",
-        "args": {
-          "1": "gl",
-          "2": "sugar"
-        },
-        "expansion": "Galician sugar"
-      },
-      {
-        "name": "wp",
-        "args": {
-          "1": "pt:relacionamento sugar"
-        },
-        "expansion": ""
-      },
-      {
-        "name": "pseudo-loan",
-        "args": {
-          "1": "pt",
-          "2": "en",
-          "3": "sugar<t:money>"
-        },
-        "expansion": "Pseudo-anglicism, derived from sugar (“money”)"
-      },
-      {
-        "name": "suffix",
-        "args": {
-          "1": "ro",
-          "2": "suge",
-          "t1": "to suck",
-          "3": "-ar"
-        },
-        "expansion": "suge (“to suck”) + -ar"
-      },
-      {
-        "name": "cog",
-        "args": {
-          "1": "dlm",
-          "2": "sugol",
-          "3": "",
-          "4": "lamb"
-        },
-        "expansion": "Dalmatian sugol (“lamb”)"
-      },
-      {
-        "name": "inh",
-        "args": {
-          "1": "vec",
-          "2": "la",
-          "3": "exsūcō",
-          "4": "exsūcāre",
-          "t": "to juice; to dry"
-        },
-        "expansion": "Latin exsūcāre (“to juice; to dry”)"
-      },
-      {
-        "name": "cog",
-        "args": {
-          "1": "it",
-          "2": "asciugare"
-        },
-        "expansion": "Italian asciugare"
-      },
-      {
-        "name": "cog",
-        "args": {
-          "1": "fur",
-          "2": "suiâ"
-        },
-        "expansion": "Friulian suiâ"
       }
-    ],
-    "source": "Kaikki (Wiktionary extraction)",
-    "url": "https://en.wiktionary.org/wiki/sugar"
+    ]
   },
-  "forms": [],
-  "edges": [],
-  "short_summary": "The English word \"sugar\" is inherited from Middle English \"sugre\", which was borrowed through Old French, Old Italian, Arabic, Middle Persian, and Gandhari, ultimately originating from Sanskrit \"śarkarā\" and Proto-Indo-European \"*ǵʰorkeh₂\" meaning \"gravel\".",
-  "confidence_summary": "The etymology is well-established, tracing a clear path of borrowings and inheritances from Proto-Indo-European to modern English.",
-  "semantic_stages": [
+  "sources": [
     {
-      "label": "Proto-Indo-European *ǵʰorkeh₂",
-      "meaning": "gravel",
-      "language": "Proto-Indo-European"
-    },
-    {
-      "label": "Sanskrit शर्करा (śarkarā)",
-      "meaning": "sugar",
-      "language": "Sanskrit"
+      "name": "Wiktionary",
+      "url": "https://en.wiktionary.org/wiki/sugar",
+      "type": "dictionary",
+      "via": "Kaikki.org",
+      "retrieval_date": "2026-05-01"
     }
   ],
-  "map_route": [],
-  "status": "published"
+  "forms": [
+    {
+      "id": "pie:*korkeh2",
+      "lemma": "*ḱorkeh₂",
+      "language": "Proto-Indo-European",
+      "period": "Ancient",
+      "approx_start_year": -4500,
+      "approx_end_year": -2500,
+      "region_label": "Pontic-Caspian Steppe",
+      "lat": 48.0,
+      "lon": 40.0,
+      "meaning": "gravel"
+    },
+    {
+      "id": "pii:*carkaraH",
+      "lemma": "*ćárkaraH",
+      "language": "Proto-Indo-Iranian",
+      "period": "Ancient",
+      "approx_start_year": -2500,
+      "approx_end_year": -1500,
+      "region_label": "Central Asia",
+      "lat": 40.0,
+      "lon": 65.0,
+      "meaning": "gravel, grit"
+    },
+    {
+      "id": "pia:*sarkaraH",
+      "lemma": "*śárkaraH",
+      "language": "Proto-Indo-Aryan",
+      "period": "Ancient",
+      "approx_start_year": -1800,
+      "approx_end_year": -1200,
+      "region_label": "Indus Valley",
+      "lat": 30.0,
+      "lon": 70.0,
+      "meaning": "gravel, grit"
+    },
+    {
+      "id": "sa:sarkara",
+      "lemma": "śárkarā",
+      "language": "Sanskrit",
+      "period": "Ancient",
+      "approx_start_year": -1500,
+      "approx_end_year": 500,
+      "region_label": "Ancient India",
+      "lat": 25.3,
+      "lon": 82.9,
+      "meaning": "gravel, grit, sugar"
+    },
+    {
+      "id": "gand:sakara",
+      "lemma": "śakara",
+      "language": "Gandhari",
+      "period": "Ancient",
+      "approx_start_year": 100,
+      "approx_end_year": 500,
+      "region_label": "Gandhara",
+      "lat": 34.0,
+      "lon": 71.5,
+      "meaning": "sugar"
+    },
+    {
+      "id": "pal:sakar",
+      "lemma": "šakar",
+      "language": "Middle Persian",
+      "period": "Classical",
+      "approx_start_year": 300,
+      "approx_end_year": 900,
+      "region_label": "Persia",
+      "lat": 32.0,
+      "lon": 53.0,
+      "meaning": "sugar"
+    },
+    {
+      "id": "ar:sukkar",
+      "lemma": "sukkar",
+      "language": "Arabic",
+      "period": "Classical",
+      "approx_start_year": 700,
+      "approx_end_year": 1200,
+      "region_label": "Arabian Peninsula",
+      "lat": 23.0,
+      "lon": 45.0,
+      "meaning": "sugar"
+    },
+    {
+      "id": "oit:zucchero",
+      "lemma": "zucchero",
+      "language": "Old Italian",
+      "period": "Medieval",
+      "approx_start_year": 1100,
+      "approx_end_year": 1400,
+      "region_label": "Italy",
+      "lat": 42.0,
+      "lon": 12.5,
+      "meaning": "sugar"
+    },
+    {
+      "id": "fro:çucre",
+      "lemma": "çucre",
+      "language": "Old French",
+      "period": "Medieval",
+      "approx_start_year": 1100,
+      "approx_end_year": 1400,
+      "region_label": "France",
+      "lat": 47.0,
+      "lon": 2.0,
+      "meaning": "sugar"
+    },
+    {
+      "id": "enm:sugre",
+      "lemma": "sugre",
+      "language": "Middle English",
+      "period": "Medieval",
+      "approx_start_year": 1200,
+      "approx_end_year": 1500,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "sugar"
+    },
+    {
+      "id": "eng:sugar",
+      "lemma": "sugar",
+      "language": "English",
+      "period": "Modern English",
+      "approx_start_year": 1500,
+      "approx_end_year": 2026,
+      "region_label": "England",
+      "lat": 52.0,
+      "lon": -1.5,
+      "meaning": "sweet crystalline substance"
+    }
+  ],
+  "edges": [
+    {
+      "from": "pii:*carkaraH",
+      "to": "pie:*korkeh2",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Proto-Indo-Iranian inherited from Proto-Indo-European."
+    },
+    {
+      "from": "pia:*sarkaraH",
+      "to": "pii:*carkaraH",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Proto-Indo-Aryan inherited from Proto-Indo-Iranian."
+    },
+    {
+      "from": "sa:sarkara",
+      "to": "pia:*sarkaraH",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "Sanskrit inherited from Proto-Indo-Aryan."
+    },
+    {
+      "from": "gand:sakara",
+      "to": "sa:sarkara",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Gandhari borrowed from Sanskrit."
+    },
+    {
+      "from": "pal:sakar",
+      "to": "gand:sakara",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Middle Persian borrowed from Gandhari."
+    },
+    {
+      "from": "ar:sukkar",
+      "to": "pal:sakar",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Arabic borrowed from Middle Persian."
+    },
+    {
+      "from": "oit:zucchero",
+      "to": "ar:sukkar",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Old Italian borrowed from Arabic."
+    },
+    {
+      "from": "fro:çucre",
+      "to": "oit:zucchero",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Old French borrowed from Old Italian."
+    },
+    {
+      "from": "enm:sugre",
+      "to": "fro:çucre",
+      "relation": "borrowed_from",
+      "confidence": "high",
+      "note": "Middle English borrowed from Old French."
+    },
+    {
+      "from": "eng:sugar",
+      "to": "enm:sugre",
+      "relation": "inherited_from",
+      "confidence": "high",
+      "note": "English inherited from Middle English."
+    }
+  ],
+  "map_route": [
+    {
+      "label": "Proto-Indo-European *ḱorkeh₂",
+      "lat": 48.0,
+      "lon": 40.0
+    },
+    {
+      "label": "Sanskrit śárkarā",
+      "lat": 25.3,
+      "lon": 82.9
+    },
+    {
+      "label": "Gandhari śakara",
+      "lat": 34.0,
+      "lon": 71.5
+    },
+    {
+      "label": "Middle Persian šakar",
+      "lat": 32.0,
+      "lon": 53.0
+    },
+    {
+      "label": "Arabic sukkar",
+      "lat": 23.0,
+      "lon": 45.0
+    },
+    {
+      "label": "Old Italian zucchero",
+      "lat": 42.0,
+      "lon": 12.5
+    },
+    {
+      "label": "Old French çucre",
+      "lat": 47.0,
+      "lon": 2.0
+    },
+    {
+      "label": "English sugar",
+      "lat": 52.0,
+      "lon": -1.5
+    }
+  ],
+  "semantic_stages": [
+    {
+      "label": "Proto-Indo-European *ḱorkeh₂",
+      "meaning": "gravel, grit, small particles",
+      "language": "Proto-Indo-European",
+      "period": "Ancient",
+      "approx_year": -4000
+    },
+    {
+      "label": "Sanskrit śárkarā",
+      "meaning": "gravel, grit, sugar (semantic shift to the sweet substance)",
+      "language": "Sanskrit",
+      "period": "Ancient",
+      "approx_year": -500
+    },
+    {
+      "label": "English sugar",
+      "meaning": "sweet crystalline substance obtained from plants",
+      "language": "English",
+      "period": "Modern English",
+      "approx_year": 1600
+    }
+  ],
+  "short_summary": "The English word “sugar” traces a long journey from Proto-Indo-European roots meaning \"gravel\" through ancient Indian languages, where it acquired its meaning related to the sweet substance. It then migrated westward through Persian, Arabic, Old Italian, and Old French before being borrowed into Middle English, eventually becoming modern English \"sugar.\"",
+  "confidence_summary": "The broad route of the word \"sugar\" is very well-established and widely accepted by historical linguists, demonstrating a clear migration of both the word and the commodity it describes from East to West.",
+  "status": "auto_parsed_needs_review"
 }

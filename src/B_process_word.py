@@ -1,29 +1,40 @@
 import json
 import os
 import glob
+from datetime import date
 from tqdm import tqdm
 
 def extract_lexical_data(entry):
-    """Extracts plurals, countability, and pronunciation from the main entry."""
-    info = {
-        "part_of_speech": entry.get("pos"),
-        "main_definition": entry.get("senses", [{}])[0].get("glosses", [""])[0] if entry.get("senses") else "",
-        "tags": entry.get("senses", [{}])[0].get("tags", []) if entry.get("senses") else [],
-        "inflections": [],
-        "pronunciation": []
-    }
+    """Formats the Kaikki lexical data to exactly match the target schema."""
+    senses = entry.get("senses", [{}])
+    first_sense = senses[0] if senses else {}
     
-    # Get plurals/inflections
+    # 1. Format Tags into noun_type (e.g., ["countable", "uncountable"] -> "countable and uncountable")
+    tags = first_sense.get("tags", [])
+    noun_type = " and ".join(tags) if tags else ""
+    
+    # 2. Extract the first available Plural
+    plural = ""
     for form in entry.get("forms", []):
         if "plural" in form.get("tags", []):
-            info["inflections"].append(form.get("form"))
+            plural = form.get("form")
+            break
             
-    # Get IPA pronunciation
+    # 3. Extract the first available IPA Pronunciation
+    pronunciation = ""
     for sound in entry.get("sounds", []):
         if "ipa" in sound:
-            info["pronunciation"].append(sound.get("ipa"))
+            pronunciation = sound.get("ipa")
+            break
             
-    return info
+    return {
+        "part_of_speech": entry.get("pos", "unknown"),
+        "noun_type": noun_type,
+        "plural": plural,
+        "pronunciation": pronunciation,
+        "main_definition": first_sense.get("glosses", [""])[0] if first_sense.get("glosses") else "",
+        "usage_note": "" # Left blank as a placeholder for manual curation or future NLP extraction
+    }
 
 def process_word(input_filepath, output_dir="data/processed_data"):
     os.makedirs(output_dir, exist_ok=True)
@@ -34,48 +45,59 @@ def process_word(input_filepath, output_dir="data/processed_data"):
     if not entries:
         return False
 
-    word = entries[0].get("word", "unknown")
-    lang_code = entries[0].get("lang_code", "en")
-    language = entries[0].get("lang", "English")
+    # STRICTLY FILTER FOR ENGLISH ENTRIES ONLY
+    english_entries = [e for e in entries if e.get("lang") == "English"]
+    if not english_entries:
+        return False
+
+    word = english_entries[0].get("word", "unknown")
+    lang_code = english_entries[0].get("lang_code", "en")
+    language = english_entries[0].get("lang", "English")
     
-    # --- THE FIX: AGGREGATE ALL ETYMOLOGY DATA ---
     all_etym_texts = set()
     all_templates = []
     
-    for entry in entries:
-        # 1. Grab all unique text paragraphs
+    # Aggregate all English etymology data (The "Vacuum Cleaner")
+    for entry in english_entries:
         text = entry.get("etymology_text")
         if text:
             all_etym_texts.add(text.strip())
             
-        # 2. Grab all raw templates (so the LLM can see the explicit language codes)
         for t in entry.get("etymology_templates", []):
-            if t not in all_templates: # Prevent massive duplication
+            if t not in all_templates:
                 all_templates.append(t)
                 
-    # If we found absolutely no etymology data across all entries, skip it
     if not all_etym_texts and not all_templates:
         return False
 
-    # Find the best entry to pull our baseline lexical info from (Noun > Adj > Verb)
-    target_entry = next((e for e in entries if e.get("pos") in ["noun", "adj", "verb"]), entries[0])
+    # Isolate the main noun path
+    target_entry = next((e for e in english_entries if e.get("pos") == "noun"), english_entries[0])
 
+    # Build the Draft Schema
     draft_schema = {
         "id": f"{lang_code}:{word}",
         "query_word": word,
         "language": language,
         "title": word,
+        "story_type": "migration_word", # Added to match your target schema
         "lexical_info": extract_lexical_data(target_entry),
         "raw_etymology": {
-            # Join all the found texts with double line breaks
             "text": "\n\n".join(list(all_etym_texts)),
-            # Feed the raw templates to the LLM as structured backup evidence!
-            "templates": all_templates,
-            "source": "Kaikki (Wiktionary extraction)",
-            "url": f"https://en.wiktionary.org/wiki/{word}"
+            "templates": all_templates
         },
+        "sources": [
+            {
+                "name": "Wiktionary",
+                "url": f"https://en.wiktionary.org/wiki/{word}",
+                "type": "dictionary",
+                "via": "Kaikki.org",
+                "retrieval_date": date.today().isoformat()
+            }
+        ],
         "forms": [],
-        "edges": []
+        "edges": [],
+        "map_route": [],
+        "semantic_stages": []
     }
 
     out_file = os.path.join(output_dir, f"{word}_processed.json")
@@ -91,9 +113,8 @@ def process_directory(input_dir="data/raw_data", output_dir="data/processed_data
     if not raw_files:
         print(f"❌ No raw JSON files found in: '{input_dir}'")
         return
-
+        
     print(f"Found {len(raw_files)} files. Starting batch parsing...")
-    
     success_count = 0
     
     for filepath in tqdm(raw_files, desc="Extracting Drafts"):
