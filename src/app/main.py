@@ -9,7 +9,7 @@ import streamlit.components.v1 as components
 from streamlit_folium import folium_static
 
 
-DATA_DIR = Path("data/prototype")
+DATA_DIR = Path("data/final_data")
 
 
 # -----------------------------
@@ -22,30 +22,9 @@ def load_json(path):
 
 
 def safe_value(value, default="—"):
-    """Return a display-safe value."""
-    if value is None:
-        return default
-    if value == "":
+    if value is None or value == "":
         return default
     return value
-
-
-def sort_forms_by_year(forms):
-    return sorted(
-        forms,
-        key=lambda x: x.get("approx_start_year", 999999)
-        if x.get("approx_start_year") is not None
-        else 999999
-    )
-
-
-def sort_route_by_year(route):
-    return sorted(
-        route,
-        key=lambda x: x.get("approx_year", 999999)
-        if x.get("approx_year") is not None
-        else 999999
-    )
 
 
 def format_year(year):
@@ -62,6 +41,123 @@ def format_year(year):
     return f"{year} CE"
 
 
+def sort_forms_by_year(forms):
+    return sorted(
+        forms,
+        key=lambda x: x.get("approx_start_year", 999999)
+        if x.get("approx_start_year") is not None
+        else 999999
+    )
+
+
+def sort_route_by_year_or_order(route):
+    """
+    Sort route by approx_year if available.
+    If not available, preserve current order.
+    """
+    indexed_route = list(enumerate(route))
+
+    return [
+        point for _, point in sorted(
+            indexed_route,
+            key=lambda item: (
+                item[1].get("approx_year") is None,
+                item[1].get("approx_year", item[0]),
+                item[0],
+            )
+        )
+    ]
+
+
+# -----------------------------
+# Route enrichment
+# -----------------------------
+
+def normalize_text(text):
+    return str(text or "").lower().strip()
+
+
+def find_matching_form(route_point, forms):
+    """
+    Try to match a map route point to one of the forms.
+
+    Current JSON does not include stage_id in map_route, so we infer it from
+    the label. Example:
+    route label: "Sanskrit śárkarā"
+    form lemma:  "śárkarā"
+    """
+    label = normalize_text(route_point.get("label"))
+
+    if not label:
+        return None
+
+    # 1. Match by exact lemma contained in route label.
+    for form in forms:
+        lemma = normalize_text(form.get("lemma"))
+        if lemma and lemma in label:
+            return form
+
+    # 2. Match by language contained in route label.
+    for form in forms:
+        language = normalize_text(form.get("language"))
+        if language and language in label:
+            return form
+
+    # 3. Match by coordinates if exactly equal or very close.
+    route_lat = route_point.get("lat")
+    route_lon = route_point.get("lon")
+
+    if route_lat is not None and route_lon is not None:
+        for form in forms:
+            form_lat = form.get("lat")
+            form_lon = form.get("lon")
+
+            if form_lat is None or form_lon is None:
+                continue
+
+            try:
+                if abs(float(route_lat) - float(form_lat)) < 0.01 and abs(float(route_lon) - float(form_lon)) < 0.01:
+                    return form
+            except Exception:
+                pass
+
+    return None
+
+
+def enrich_map_route(word_data):
+    """
+    Add missing route fields from forms when possible.
+
+    This lets the app show region and approximate year even if map_route only has:
+    label, lat, lon.
+    """
+    route = word_data.get("map_route", [])
+    forms = word_data.get("forms", [])
+
+    enriched_route = []
+
+    for point in route:
+        enriched = dict(point)
+        match = find_matching_form(point, forms)
+
+        if match:
+            enriched.setdefault("stage_id", match.get("id"))
+            enriched.setdefault("region_label", match.get("region_label"))
+
+            # Use midpoint-ish display year if possible.
+            # Prefer approx_start_year because it gives route ordering.
+            if "approx_year" not in enriched or enriched.get("approx_year") in [None, ""]:
+                enriched["approx_year"] = match.get("approx_start_year")
+
+            enriched.setdefault("language", match.get("language"))
+            enriched.setdefault("period", match.get("period"))
+            enriched.setdefault("meaning", match.get("meaning"))
+
+        enriched_route.append(enriched)
+
+    return enriched_route
+
+
 # -----------------------------
 # Automatic symbolic map markers
 # -----------------------------
@@ -70,31 +166,33 @@ def get_auto_marker(point):
     """
     Assign a symbolic marker automatically.
 
-    We avoid modern national flags for now because historical languages
-    and word routes do not map cleanly to modern nation-states.
+    We avoid modern national flags because historical languages and word routes
+    do not map cleanly to modern nation-states.
     """
     text = " ".join([
         str(point.get("label", "")),
         str(point.get("language", "")),
-        str(point.get("region_label", ""))
+        str(point.get("region_label", "")),
     ]).lower()
 
-    if "sanskrit" in text or "india" in text or "north india" in text:
+    if "proto" in text:
+        return "◇"
+    if "sanskrit" in text or "india" in text:
         return "⚑"
+    if "gandhari" in text or "gandhara" in text:
+        return "◆"
     if "persian" in text or "persia" in text or "iran" in text:
         return "◆"
-    if "arabic" in text or "arab" in text or "baghdad" in text:
+    if "arabic" in text or "arab" in text:
         return "✦"
-    if "latin" in text or "rome" in text or "roman" in text:
+    if "italian" in text or "italy" in text:
         return "◈"
-    if "greek" in text or "greece" in text:
-        return "✧"
     if "french" in text or "france" in text:
         return "⚜"
     if "english" in text or "england" in text:
         return "⚐"
-    if "khwarazm" in text or "central asia" in text:
-        return "◇"
+    if "greek" in text or "greece" in text:
+        return "✧"
 
     return "⚑"
 
@@ -120,11 +218,6 @@ def haversine_km(lat1, lon1, lat2, lon2):
 
 
 def build_travel_table(route):
-    """
-    Build an informative table from consecutive map route points.
-
-    Empty fields are replaced with em dashes so the table does not look broken.
-    """
     rows = []
 
     for i in range(1, len(route)):
@@ -135,13 +228,13 @@ def build_travel_table(route):
             float(origin["lat"]),
             float(origin["lon"]),
             float(destination["lat"]),
-            float(destination["lon"])
+            float(destination["lon"]),
         )
 
         rows.append({
             "Step": i,
-            "From form": safe_value(origin.get("label")),
-            "To form": safe_value(destination.get("label")),
+            "From": safe_value(origin.get("label")),
+            "To": safe_value(destination.get("label")),
             "Origin region": safe_value(origin.get("region_label")),
             "Destination region": safe_value(destination.get("region_label")),
             "Approx. transition year": format_year(destination.get("approx_year")),
@@ -165,7 +258,7 @@ def get_total_distance_km(route):
             float(origin["lat"]),
             float(origin["lon"]),
             float(destination["lat"]),
-            float(destination["lon"])
+            float(destination["lon"]),
         )
 
     return total
@@ -192,7 +285,7 @@ def render_word_timeline(word_data):
         "#B7E4C7",
         "#CDB4DB",
         "#FFD6A5",
-        "#A0C4FF"
+        "#A0C4FF",
     ]
 
     html = """
@@ -202,12 +295,10 @@ def render_word_timeline(word_data):
 
     for i, form in enumerate(forms_sorted):
         lemma = safe_value(form.get("lemma"), "")
-        transliteration = form.get("transliteration")
-        display = transliteration if transliteration else lemma
-
         language = safe_value(form.get("language"))
         start_year = form.get("approx_start_year")
         year_label = format_year(start_year)
+
         color = colors[i % len(colors)]
 
         html += f"""
@@ -228,7 +319,7 @@ def render_word_timeline(word_data):
                 box-shadow: 0 2px 8px rgba(0,0,0,0.22);
                 white-space: nowrap;
             ">
-                {display}
+                {lemma}
             </div>
             <div style="
                 text-align: center;
@@ -290,7 +381,7 @@ def draw_route_map(route, stage_index):
     m = folium.Map(
         location=[avg_lat, avg_lon],
         zoom_start=3,
-        tiles="CartoDB positron"
+        tiles="CartoDB positron",
     )
 
     visible_route = route[:stage_index + 1]
@@ -342,7 +433,7 @@ def draw_route_map(route, stage_index):
                     </span>
                 </div>
                 """
-            )
+            ),
         ).add_to(m)
 
     if len(coordinates) > 1:
@@ -350,7 +441,7 @@ def draw_route_map(route, stage_index):
             coordinates,
             weight=4,
             opacity=0.85,
-            tooltip="Approximate transmission route"
+            tooltip="Approximate transmission route",
         ).add_to(m)
 
     all_coordinates = [[float(p["lat"]), float(p["lon"])] for p in route]
@@ -358,11 +449,7 @@ def draw_route_map(route, stage_index):
     if len(all_coordinates) > 1:
         m.fit_bounds(all_coordinates, padding=(30, 30))
 
-    folium_static(
-        m,
-        width=900,
-        height=500
-    )
+    folium_static(m, width=900, height=500)
 
 
 # -----------------------------
@@ -383,15 +470,28 @@ def render_lexical_info(word_data):
         st.markdown(f"**Part of speech**  \n{safe_value(lex.get('part_of_speech'))}")
 
     with col2:
-        word_type = lex.get("noun_type") or lex.get("verb_type") or lex.get("adjective_type")
+        word_type = (
+            lex.get("noun_type")
+            or lex.get("verb_type")
+            or lex.get("adjective_type")
+        )
         st.markdown(f"**Type**  \n{safe_value(word_type)}")
 
     with col3:
-        forms = lex.get("plural") or lex.get("forms") or lex.get("inflection")
+        forms = (
+            lex.get("plural")
+            or lex.get("forms")
+            or lex.get("inflection")
+        )
         st.markdown(f"**Plural / forms**  \n{safe_value(forms)}")
 
-    if lex.get("pronunciation"):
-        st.markdown(f"**Pronunciation:** {lex['pronunciation']}")
+    pronunciation = lex.get("pronunciation") or lex.get("pronunciations")
+
+    if isinstance(pronunciation, list):
+        pronunciation = ", ".join(pronunciation)
+
+    if pronunciation:
+        st.markdown(f"**Pronunciation:** {pronunciation}")
 
     if lex.get("main_definition"):
         st.markdown(f"**Meaning:** {lex['main_definition']}")
@@ -400,6 +500,34 @@ def render_lexical_info(word_data):
         st.markdown(f"**Usage note:** {lex['usage_note']}")
 
     st.divider()
+
+
+# -----------------------------
+# Raw etymology
+# -----------------------------
+
+def render_raw_etymology(word_data):
+    raw = word_data.get("raw_etymology", {})
+
+    if not raw:
+        return
+
+    st.subheader("Raw etymology")
+
+    source = raw.get("source")
+    source_url = raw.get("source_url") or raw.get("url")
+
+    if source:
+        if source_url:
+            st.markdown(f"**Source:** [{source}]({source_url})")
+        else:
+            st.markdown(f"**Source:** {source}")
+
+    text = raw.get("text")
+
+    if text:
+        with st.expander("Show raw etymology text"):
+            st.text(text)
 
 
 # -----------------------------
@@ -422,7 +550,7 @@ selected_word = st.sidebar.selectbox(
     "Search a word",
     options=list(word_options.keys()),
     placeholder="Type a word...",
-    key="word_selector"
+    key="word_selector",
 )
 
 selected_file = word_options[selected_word]
@@ -482,10 +610,6 @@ with tab_overview:
 
     for i, form in enumerate(forms_sorted):
         lemma = safe_value(form.get("lemma"), "")
-        transliteration = form.get("transliteration")
-
-        if transliteration:
-            lemma = f"{lemma} / {transliteration}"
 
         st.markdown(
             f"**{lemma}** — {safe_value(form.get('language'))}  \n"
@@ -502,7 +626,6 @@ with tab_overview:
         timeline_df = pd.DataFrame([
             {
                 "Form": safe_value(f.get("lemma")),
-                "Transliteration": safe_value(f.get("transliteration")),
                 "Language": safe_value(f.get("language")),
                 "Period": safe_value(f.get("period")),
                 "Start": format_year(f.get("approx_start_year")),
@@ -514,6 +637,26 @@ with tab_overview:
         ])
 
         st.dataframe(timeline_df, use_container_width=True, hide_index=True)
+
+    st.subheader("Edges")
+
+    edges = word_data.get("edges", [])
+
+    if edges:
+        edges_df = pd.DataFrame([
+            {
+                "From": safe_value(e.get("from")),
+                "Relation": safe_value(e.get("relation")),
+                "To": safe_value(e.get("to")),
+                "Confidence": safe_value(e.get("confidence")),
+                "Note": safe_value(e.get("note")),
+            }
+            for e in edges
+        ])
+
+        st.dataframe(edges_df, use_container_width=True, hide_index=True)
+    else:
+        st.info("No etymology edges available.")
 
     st.subheader("Semantic stages")
 
@@ -527,7 +670,6 @@ with tab_overview:
                 "Language": safe_value(s.get("language")),
                 "Period": safe_value(s.get("period")),
                 "Approx. year": format_year(s.get("approx_year")),
-                "Change type": safe_value(s.get("semantic_change_type")),
             }
             for s in semantic_stages
         ])
@@ -556,6 +698,8 @@ with tab_overview:
 
         st.dataframe(related_df, use_container_width=True, hide_index=True)
 
+    render_raw_etymology(word_data)
+
     st.subheader("Sources")
 
     sources = word_data.get("sources", [])
@@ -565,10 +709,15 @@ with tab_overview:
             name = source.get("name", "Source")
             url = source.get("url")
             source_type = source.get("type")
+            via = source.get("via")
 
             label = name
+
             if source_type:
                 label += f" — {source_type}"
+
+            if via:
+                label += f" via {via}"
 
             if url:
                 st.markdown(f"- [{label}]({url})")
@@ -585,7 +734,8 @@ with tab_overview:
 with tab_map:
     st.subheader("Word route map")
 
-    route = sort_route_by_year(word_data.get("map_route", []))
+    route = enrich_map_route(word_data)
+    route = sort_route_by_year_or_order(route)
 
     if route:
         stage_index = st.slider(
@@ -594,7 +744,7 @@ with tab_map:
             max_value=len(route) - 1,
             value=len(route) - 1,
             step=1,
-            key=f"slider_{selected_word}"
+            key=f"slider_{selected_word}",
         )
 
         draw_route_map(route, stage_index)
@@ -606,6 +756,9 @@ with tab_map:
 
         st.markdown(f"**Region:** {safe_value(current_stage.get('region_label'))}")
         st.markdown(f"**Approx. year:** {format_year(current_stage.get('approx_year'))}")
+
+        if current_stage.get("meaning"):
+            st.markdown(f"**Meaning:** {safe_value(current_stage.get('meaning'))}")
 
         st.caption(
             "Map points are approximate cultural/geographic anchors, "
