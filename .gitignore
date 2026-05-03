@@ -1,2 +1,7 @@
 data/raw-wiktextract-data.jsonl
 data/google_api.txt
+node_modules/
+.next/
+dist/
+apps/web/.next/
+apps/web/node_modules/
